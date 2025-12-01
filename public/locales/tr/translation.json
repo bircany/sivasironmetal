@@ -1,0 +1,548 @@
+{
+    "nav": {
+        "corporate": "Kurumsal",
+        "products": "Ürünlerimiz",
+        "production": "Üretim",
+        "services": "Hizmetler",
+        "contact": "İletişim",
+        "investor": "Yatırımcı İlişkileri",
+        "sustainability": "Sürdürülebilirlik",
+        "media": "Medya",
+        "career": "Kariyer",
+        "privacy": "Gizlilik Politikası",
+        "terms": "Kullanım Şartları"
+    },
+    "footer": {
+        "rightsReserved": "Tüm hakları saklıdır.",
+        "quickLinks": "Hızlı Bağlantılar",
+        "contactInfo": "İletişim Bilgileri",
+        "certifications": "Sertifikalar",
+        "certText": "ISO 9001:2015 Sertifikalı\nUluslararası Ticaret Uyumluluğu\nKalite Güvence Standartları",
+        "desc": "Küresel çelik ve demir ticaretinde güvenilir ortağınız. Kaliteli ürünler, güvenilir hizmet, uluslararası mükemmellik."
+    },
+    "common": {
+        "viewAll": "Tümünü İncele",
+        "backToProducts": "Ürünlere Dön",
+        "learnMore": "Daha Fazla Bilgi",
+        "callNow": "Hemen Ara",
+        "getInTouch": "İletişime Geç"
+    },
+    "home": {
+        "hero": {
+            "title": "Küresel Çelik ve Demir Ticaretinde Mükemmellik",
+            "subtitle": "Dünya çapında birinci sınıf çelik ve demir ürünleri için güvenilir ortağınız. Güvenebileceğiniz kalite, güvenilirlik ve küresel erişim.",
+            "catalogButton": "Ürün Kataloğu",
+            "quoteButton": "Bize Ulaşın"
+        },
+        "stats": {
+            "experience": "Tecrübe",
+            "export": "İhracat",
+            "products": "Ürün Çeşidi",
+            "quality": "Kalite"
+        },
+        "products": {
+            "title": "Ürünlerimiz",
+            "description": "Çeşitli endüstriyel uygulamalar için kapsamlı çelik ve demir ürünleri yelpazesi"
+        },
+        "whyUs": {
+            "title": "Neden Sivas Iron Metal?",
+            "subtitle": "Bizi tercih etmeniz için geçerli sebeplerimiz var.",
+            "items": {
+                "1": {
+                    "title": "Üstün Kalite",
+                    "desc": "Titiz kalite kontrolü, her ürünün uluslararası standartları karşılamasını ve beklentileri aşmasını sağlar."
+                },
+                "2": {
+                    "title": "Küresel Erişim",
+                    "desc": "Geniş uluslararası ağ, güvenilir lojistik ile kıtalar arasında sorunsuz ticaret sağlar."
+                },
+                "3": {
+                    "title": "Güvenilir Ortak",
+                    "desc": "Dünya çapındaki müşterilerle güven ve güvenilirliğe dayalı uzun vadeli ilişkiler kurma konusunda onlarca yıllık deneyim."
+                },
+                "4": {
+                    "title": "Sertifikalı Mükemmellik",
+                    "desc": "Uluslararası sertifikalar ve küresel ticaret standartlarına ve düzenlemelerine uyum."
+                }
+            }
+        },
+        "references": {
+            "title": "Referanslarımız"
+        },
+        "cta": {
+            "title": "Bir Sonraki Projenize Başlamaya Hazır Mısınız?",
+            "subtitle": "Kişiselleştirilmiş hizmet ve rekabetçi fiyatlandırma için ekibimizle iletişime geçin"
+        }
+    },
+    "corporate": {
+        "menu": {
+            "about": "Hakkımızda",
+            "vision": "Vizyon & Misyon",
+            "quality": "Kalite Politikamız",
+            "history": "Tarihçe"
+        },
+        "about": {
+            "title": "Hakkımızda",
+            "subtitle": "Çelik ve Demir Uluslararası Ticaretinde Mükemmellik",
+            "p1": "Sivas Iron Metal, küresel çelik ve demir ithalat/ihracat endüstrisinde önde gelen bir lider olarak duruyor. Onlarca yıllık deneyimimiz ve kaliteye olan sarsılmaz bağlılığımızla, birinci sınıf metal ürünleri arayan dünya çapındaki işletmeler için güvenilir bir ortak olarak kendimizi kanıtladık.",
+            "p2": "Şirketimiz, çeşitli endüstriyel ihtiyaçları karşılamak için yüksek kaliteli çelik ve demir malzemeleri tedarik etme, işleme ve dağıtma konusunda uzmanlaşmıştır. Tesislerimizden çıkan her ürünün uluslararası spesifikasyonları karşılamasını veya aşmasını sağlayarak en yüksek kalite kontrol standartlarını sürdürmekten gurur duyuyoruz.",
+            "p3": "Sivas Iron Metal'de, günümüzün küresel ekonomisinde güvenilir tedarik zincirlerinin ve tutarlı kalitenin çok önemli olduğunu anlıyoruz. Bu nedenle, kıtalar arasında tedarikçiler ve müşterilerle güçlü ilişkiler kurarak sorunsuz uluslararası ticareti sağlayan sağlam bir ağ oluşturduk."
+        },
+        "vision": {
+            "title": "Vizyonumuz",
+            "content": "Sürekli yenilik yaparak, küresel erişimimizi genişleterek ve sektörde kalite ve hizmet mükemmelliği için yeni ölçütler belirleyerek uluslararası metal ticaretinin geleceğini şekillendirmek."
+        },
+        "mission": {
+            "title": "Misyonumuz",
+            "content": "Olağanüstü kaliteli ürünler sunarak, en yüksek müşteri hizmetleri standartlarını koruyarak ve güven ve güvenilirliğe dayalı kalıcı ortaklıklar kurarak çelik ve demir ticaretinde küresel lider olmak."
+        },
+        "quality": {
+            "title": "Kalite Politikamız",
+            "content": "ISO 9001, ISO 14001 ve OHSAS 18001 standartlarına uygun olarak, müşteri memnuniyetini en üst düzeyde tutmayı, süreçlerimizi sürekli iyileştirmeyi ve yasal mevzuatlara tam uyumu taahhüt ediyoruz."
+        },
+        "history": {
+            "title": "Tarihçemiz",
+            "content": "1994 yılında Sivas'ta küçük bir atölye olarak başlayan yolculuğumuz, bugün 20'den fazla ülkeye ihracat yapan dev bir sanayi kuruluşuna dönüştü. Her geçen yıl kapasitemizi artırarak büyümeye devam ediyoruz."
+        },
+        "values": {
+            "title": "Temel Değerlerimiz",
+            "items": {
+                "quality": {
+                    "title": "Önce Kalite",
+                    "desc": "Beklentileri aşan ve en yüksek uluslararası standartları karşılayan ürünler sunma konusunda tavizsiz taahhüt."
+                },
+                "reliability": {
+                    "title": "Güvenilirlik",
+                    "desc": "Müşterilerimizin her zaman güvenebileceği tutarlı performans ve güvenilir hizmet."
+                },
+                "integrity": {
+                    "title": "Dürüstlük",
+                    "desc": "Müşteriler, ortaklar ve paydaşlarla olan tüm ilişkilerimizde şeffaf iş uygulamaları ve etik davranış."
+                },
+                "innovation": {
+                    "title": "Yenilik",
+                    "desc": "Gelişen küresel pazarda önde olmak için sürekli iyileştirme ve en iyi uygulamaların benimsenmesi."
+                },
+                "customer": {
+                    "title": "Müşteri Odaklılık",
+                    "desc": "Kişiselleştirilmiş hizmet ve çözümlerle her müşterinin benzersiz ihtiyaçlarını anlamaya ve karşılamaya adanmışlık."
+                },
+                "global": {
+                    "title": "Küresel Bakış Açısı",
+                    "desc": "Başarılı uluslararası ticaret ilişkilerini sağlayan dünya çapında ağ ve kültürel anlayış."
+                }
+            }
+        }
+    },
+    "products": {
+        "title": "Ürünlerimiz",
+        "description": "Kapsamlı Çelik ve Demir Ürünleri Yelpazesi",
+        "intro": "Çeşitli endüstriyel uygulamalar için kapsamlı bir yüksek kaliteli çelik ve demir ürünleri yelpazesi sunuyoruz. İnşaat malzemelerinden özel alaşımlara kadar ürünlerimiz en yüksek uluslararası standartları ve spesifikasyonları karşılamaktadır.",
+        "features": "Ürün Özellikleri",
+        "categories": {
+            "sheets": "Sac Ürünleri",
+            "pipes": "Boru Grubu",
+            "profiles": "Profil Grubu",
+            "construction": "Yapı Malzemeleri"
+        },
+        "items": {
+            "hr-sheets": {
+                "name": "Sıcak Haddelenmiş Sac",
+                "desc": "Genel yapı çelikleri, boru profil üretimi ve makine imalatında kullanılan yüksek mukavemetli saclar.",
+                "feature1": "Yüksek mukavemet",
+                "feature2": "Kolay şekillendirilebilirlik",
+                "feature3": "Geniş ebat seçenekleri"
+            },
+            "cr-sheets": {
+                "name": "Soğuk Haddelenmiş Sac",
+                "desc": "Otomotiv, beyaz eşya ve radyatör üretiminde tercih edilen hassas yüzeyli saclar.",
+                "feature1": "Pürüzsüz yüzey",
+                "feature2": "Hassas kalınlık toleransı",
+                "feature3": "Üstün boya tutuculuğu"
+            },
+            "galvanized-pipes": {
+                "name": "Galvanizli Borular",
+                "desc": "Korozyona karşı yüksek dirençli, su ve gaz tesisatlarında kullanılan uzun ömürlü borular.",
+                "feature1": "Korozyon direnci",
+                "feature2": "Uzun kullanım ömrü",
+                "feature3": "Basınca dayanıklı"
+            },
+            "box-profiles": {
+                "name": "Kutu Profiller",
+                "desc": "Çelik konstrüksiyon yapılar, çatı sistemleri ve makine şasilerinde kullanılan kare ve dikdörtgen profiller.",
+                "feature1": "Yüksek taşıma kapasitesi",
+                "feature2": "Estetik görünüm",
+                "feature3": "Kolay montaj"
+            },
+            "ipe-profiles": {
+                "name": "IPE Profiller",
+                "desc": "Endüstriyel yapılar ve çok katlı binaların taşıyıcı sistemlerinde kullanılan I kesitli profiller.",
+                "feature1": "Optimum ağırlık/dayanım oranı",
+                "feature2": "Ekonomik çözüm",
+                "feature3": "Standartlara uygun üretim"
+            },
+            "steel-mesh": {
+                "name": "Çelik Hasır",
+                "desc": "Betonarme yapılarda, saha betonlarında ve tünel kalıp sistemlerinde kullanılan donatı malzemesi.",
+                "feature1": "Zaman ve işçilik tasarrufu",
+                "feature2": "Homojen donatı dağılımı",
+                "feature3": "Yüksek aderans"
+            }
+        }
+    },
+    "contact": {
+        "title": "İletişim",
+        "subtitle": "Ekibimizle İletişime Geçin",
+        "intro": "Ürün talepleri, fiyat teklifleri, siparişler veya çelik ve demir ürünlerimizle ilgili herhangi bir sorunuz için lütfen doğrudan bizimle iletişime geçin. Anında yardım ve kişiselleştirilmiş hizmet için telefon iletişimine öncelik veriyoruz.",
+        "infoTitle": "İletişim Bilgileri",
+        "infoDesc": "Aşağıdaki iletişim kanallarından bize ulaşabilir veya formu doldurarak mesaj bırakabilirsiniz.",
+        "address": "Adres",
+        "phone": "Telefon",
+        "email": "E-posta",
+        "hours": "Çalışma Saatleri",
+        "hoursDesc": "Pzt - Cum: 08:30 - 18:00",
+        "formTitle": "Bize Mesaj Gönderin",
+        "form": {
+            "name": "Adınız Soyadınız",
+            "email": "E-posta Adresiniz",
+            "subject": "Konu",
+            "message": "Mesajınız",
+            "submit": "Mesaj Gönder"
+        }
+    },
+    "investor": {
+        "menu": {
+            "general": "Genel Bilgiler",
+            "financial": "Finansal Veriler",
+            "stock": "Hisse Bilgileri",
+            "reports": "Faaliyet Raporları"
+        },
+        "general": {
+            "title": "Genel Bilgiler",
+            "content": "Sivas Iron Metal, şeffaf ve hesap verebilir yönetim anlayışıyla yatırımcılarına değer katmayı hedefler. Şirketimiz, sürdürülebilir büyüme stratejileri ve güçlü finansal yapısıyla sektörde güven duyulan bir liman olmaya devam etmektedir."
+        },
+        "financial": {
+            "title": "Finansal Veriler",
+            "content": "Son 5 yıla ait finansal tablolarımız, gelir tablolarımız ve bilançolarımız düzenli olarak denetlenmekte ve kamuoyu ile paylaşılmaktadır. Karlılık oranlarımız ve büyüme rakamlarımız istikrarlı bir yükseliş trendindedir."
+        },
+        "stock": {
+            "title": "Hisse Bilgileri",
+            "content": "Şirketimizin hisse performansı, temettü politikaları ve sermaye artırımı süreçleri hakkında detaylı bilgilere buradan ulaşabilirsiniz. Yatırımcılarımızın haklarını korumak en temel önceliğimizdir."
+        },
+        "reports": {
+            "title": "Faaliyet Raporları",
+            "content": "Yıllık ve çeyrek dönem faaliyet raporlarımız, yönetim kurulu mesajlarımız ve gelecek vizyonumuz bu bölümde yer almaktadır."
+        }
+    },
+    "sustainability": {
+        "menu": {
+            "policy": "Çevre Politikası",
+            "certificates": "Sertifikalar",
+            "social": "Sosyal Sorumluluk"
+        },
+        "policy": {
+            "title": "Çevre Politikası",
+            "content": "Gelecek nesillere yaşanabilir bir dünya bırakmak için üretim süreçlerimizde çevresel etkileri en aza indirmeyi taahhüt ediyoruz. Enerji verimliliği, atık yönetimi ve karbon ayak izi azaltma çalışmalarımızla sektöre öncülük ediyoruz."
+        },
+        "certificates": {
+            "title": "Sertifikalar",
+            "content": "ISO 14001 Çevre Yönetim Sistemi ve diğer uluslararası sürdürülebilirlik sertifikalarımızla çevreye olan duyarlılığımızı belgeliyoruz."
+        },
+        "social": {
+            "title": "Sosyal Sorumluluk",
+            "content": "Eğitim, sağlık ve çevre alanlarında yürüttüğümüz sosyal sorumluluk projeleriyle topluma değer katmaya devam ediyoruz."
+        }
+    },
+    "media": {
+        "menu": {
+            "news": "Haberler",
+            "press": "Basın Bültenleri",
+            "gallery": "Galeri"
+        },
+        "news": {
+            "title": "Haberler",
+            "content": "Şirketimizden en son haberler, etkinlikler ve duyurular."
+        },
+        "press": {
+            "title": "Basın Bültenleri",
+            "content": "Basın mensupları için hazırlanan bültenler ve medya kitleri."
+        },
+        "gallery": {
+            "title": "Galeri",
+            "content": "Tesislerimizden, etkinliklerimizden ve ürünlerimizden fotoğraflar ve videolar."
+        }
+    },
+    "career": {
+        "menu": {
+            "policy": "İK Politikamız",
+            "positions": "Açık Pozisyonlar",
+            "application": "İş Başvuru Formu"
+        },
+        "policy": {
+            "title": "İnsan Kaynakları Politikamız",
+            "content": "Çalışanlarımızın kişisel ve mesleki gelişimlerine önem veriyor, adil ve şeffaf bir çalışma ortamı sunuyoruz. İnsan kaynağımız en büyük gücümüzdür."
+        },
+        "positions": {
+            "title": "Açık Pozisyonlar",
+            "content": "Şu anda açık olan pozisyonlarımızı inceleyebilir ve ekibimize katılmak için başvuruda bulunabilirsiniz.""content": "Sürekli yenilik yaparak, küresel erişimimizi genişleterek ve sektörde kalite ve hizmet mükemmelliği için yeni ölçütler belirleyerek uluslararası metal ticaretinin geleceğini şekillendirmek."
+        },
+        "mission": {
+            "title": "Misyonumuz",
+            "content": "Olağanüstü kaliteli ürünler sunarak, en yüksek müşteri hizmetleri standartlarını koruyarak ve güven ve güvenilirliğe dayalı kalıcı ortaklıklar kurarak çelik ve demir ticaretinde küresel lider olmak."
+        },
+        "quality": {
+            "title": "Kalite Politikamız",
+            "content": "ISO 9001, ISO 14001 ve OHSAS 18001 standartlarına uygun olarak, müşteri memnuniyetini en üst düzeyde tutmayı, süreçlerimizi sürekli iyileştirmeyi ve yasal mevzuatlara tam uyumu taahhüt ediyoruz."
+        },
+        "history": {
+            "title": "Tarihçemiz",
+            "content": "1994 yılında Sivas'ta küçük bir atölye olarak başlayan yolculuğumuz, bugün 20'den fazla ülkeye ihracat yapan dev bir sanayi kuruluşuna dönüştü. Her geçen yıl kapasitemizi artırarak büyümeye devam ediyoruz."
+        },
+        "values": {
+            "title": "Temel Değerlerimiz",
+            "items": {
+                "quality": {
+                    "title": "Önce Kalite",
+                    "desc": "Beklentileri aşan ve en yüksek uluslararası standartları karşılayan ürünler sunma konusunda tavizsiz taahhüt."
+                },
+                "reliability": {
+                    "title": "Güvenilirlik",
+                    "desc": "Müşterilerimizin her zaman güvenebileceği tutarlı performans ve güvenilir hizmet."
+                },
+                "integrity": {
+                    "title": "Dürüstlük",
+                    "desc": "Müşteriler, ortaklar ve paydaşlarla olan tüm ilişkilerimizde şeffaf iş uygulamaları ve etik davranış."
+                },
+                "innovation": {
+                    "title": "Yenilik",
+                    "desc": "Gelişen küresel pazarda önde olmak için sürekli iyileştirme ve en iyi uygulamaların benimsenmesi."
+                },
+                "customer": {
+                    "title": "Müşteri Odaklılık",
+                    "desc": "Kişiselleştirilmiş hizmet ve çözümlerle her müşterinin benzersiz ihtiyaçlarını anlamaya ve karşılamaya adanmışlık."
+                },
+                "global": {
+                    "title": "Küresel Bakış Açısı",
+                    "desc": "Başarılı uluslararası ticaret ilişkilerini sağlayan dünya çapında ağ ve kültürel anlayış."
+                }
+            }
+        }
+    },
+    "products": {
+        "title": "Ürünlerimiz",
+        "description": "Kapsamlı Çelik ve Demir Ürünleri Yelpazesi",
+        "intro": "Çeşitli endüstriyel uygulamalar için kapsamlı bir yüksek kaliteli çelik ve demir ürünleri yelpazesi sunuyoruz. İnşaat malzemelerinden özel alaşımlara kadar ürünlerimiz en yüksek uluslararası standartları ve spesifikasyonları karşılamaktadır.",
+        "features": "Ürün Özellikleri",
+        "categories": {
+            "sheets": "Sac Ürünleri",
+            "pipes": "Boru Grubu",
+            "profiles": "Profil Grubu",
+            "construction": "Yapı Malzemeleri"
+        },
+        "items": {
+            "hr-sheets": {
+                "name": "Sıcak Haddelenmiş Sac",
+                "desc": "Genel yapı çelikleri, boru profil üretimi ve makine imalatında kullanılan yüksek mukavemetli saclar.",
+                "feature1": "Yüksek mukavemet",
+                "feature2": "Kolay şekillendirilebilirlik",
+                "feature3": "Geniş ebat seçenekleri"
+            },
+            "cr-sheets": {
+                "name": "Soğuk Haddelenmiş Sac",
+                "desc": "Otomotiv, beyaz eşya ve radyatör üretiminde tercih edilen hassas yüzeyli saclar.",
+                "feature1": "Pürüzsüz yüzey",
+                "feature2": "Hassas kalınlık toleransı",
+                "feature3": "Üstün boya tutuculuğu"
+            },
+            "galvanized-pipes": {
+                "name": "Galvanizli Borular",
+                "desc": "Korozyona karşı yüksek dirençli, su ve gaz tesisatlarında kullanılan uzun ömürlü borular.",
+                "feature1": "Korozyon direnci",
+                "feature2": "Uzun kullanım ömrü",
+                "feature3": "Basınca dayanıklı"
+            },
+            "box-profiles": {
+                "name": "Kutu Profiller",
+                "desc": "Çelik konstrüksiyon yapılar, çatı sistemleri ve makine şasilerinde kullanılan kare ve dikdörtgen profiller.",
+                "feature1": "Yüksek taşıma kapasitesi",
+                "feature2": "Estetik görünüm",
+                "feature3": "Kolay montaj"
+            },
+            "ipe-profiles": {
+                "name": "IPE Profiller",
+                "desc": "Endüstriyel yapılar ve çok katlı binaların taşıyıcı sistemlerinde kullanılan I kesitli profiller.",
+                "feature1": "Optimum ağırlık/dayanım oranı",
+                "feature2": "Ekonomik çözüm",
+                "feature3": "Standartlara uygun üretim"
+            },
+            "steel-mesh": {
+                "name": "Çelik Hasır",
+                "desc": "Betonarme yapılarda, saha betonlarında ve tünel kalıp sistemlerinde kullanılan donatı malzemesi.",
+                "feature1": "Zaman ve işçilik tasarrufu",
+                "feature2": "Homojen donatı dağılımı",
+                "feature3": "Yüksek aderans"
+            }
+        }
+    },
+    "contact": {
+        "title": "İletişim",
+        "subtitle": "Ekibimizle İletişime Geçin",
+        "intro": "Ürün talepleri, fiyat teklifleri, siparişler veya çelik ve demir ürünlerimizle ilgili herhangi bir sorunuz için lütfen doğrudan bizimle iletişime geçin. Anında yardım ve kişiselleştirilmiş hizmet için telefon iletişimine öncelik veriyoruz.",
+        "infoTitle": "İletişim Bilgileri",
+        "infoDesc": "Aşağıdaki iletişim kanallarından bize ulaşabilir veya formu doldurarak mesaj bırakabilirsiniz.",
+        "address": "Adres",
+        "phone": "Telefon",
+        "email": "E-posta",
+        "hours": "Çalışma Saatleri",
+        "hoursDesc": "Pzt - Cum: 08:30 - 18:00",
+        "formTitle": "Bize Mesaj Gönderin",
+        "form": {
+            "name": "Adınız Soyadınız",
+            "email": "E-posta Adresiniz",
+            "subject": "Konu",
+            "message": "Mesajınız",
+            "submit": "Mesaj Gönder"
+        }
+    },
+    "investor": {
+        "menu": {
+            "general": "Genel Bilgiler",
+            "financial": "Finansal Veriler",
+            "stock": "Hisse Bilgileri",
+            "reports": "Faaliyet Raporları"
+        },
+        "general": {
+            "title": "Genel Bilgiler",
+            "content": "Sivas Iron Metal, şeffaf ve hesap verebilir yönetim anlayışıyla yatırımcılarına değer katmayı hedefler. Şirketimiz, sürdürülebilir büyüme stratejileri ve güçlü finansal yapısıyla sektörde güven duyulan bir liman olmaya devam etmektedir."
+        },
+        "financial": {
+            "title": "Finansal Veriler",
+            "content": "Son 5 yıla ait finansal tablolarımız, gelir tablolarımız ve bilançolarımız düzenli olarak denetlenmekte ve kamuoyu ile paylaşılmaktadır. Karlılık oranlarımız ve büyüme rakamlarımız istikrarlı bir yükseliş trendindedir."
+        },
+        "stock": {
+            "title": "Hisse Bilgileri",
+            "content": "Şirketimizin hisse performansı, temettü politikaları ve sermaye artırımı süreçleri hakkında detaylı bilgilere buradan ulaşabilirsiniz. Yatırımcılarımızın haklarını korumak en temel önceliğimizdir."
+        },
+        "reports": {
+            "title": "Faaliyet Raporları",
+            "content": "Yıllık ve çeyrek dönem faaliyet raporlarımız, yönetim kurulu mesajlarımız ve gelecek vizyonumuz bu bölümde yer almaktadır."
+        }
+    },
+    "sustainability": {
+        "menu": {
+            "policy": "Çevre Politikası",
+            "certificates": "Sertifikalar",
+            "social": "Sosyal Sorumluluk"
+        },
+        "policy": {
+            "title": "Çevre Politikası",
+            "content": "Gelecek nesillere yaşanabilir bir dünya bırakmak için üretim süreçlerimizde çevresel etkileri en aza indirmeyi taahhüt ediyoruz. Enerji verimliliği, atık yönetimi ve karbon ayak izi azaltma çalışmalarımızla sektöre öncülük ediyoruz."
+        },
+        "certificates": {
+            "title": "Sertifikalar",
+            "content": "ISO 14001 Çevre Yönetim Sistemi ve diğer uluslararası sürdürülebilirlik sertifikalarımızla çevreye olan duyarlılığımızı belgeliyoruz."
+        },
+        "social": {
+            "title": "Sosyal Sorumluluk",
+            "content": "Eğitim, sağlık ve çevre alanlarında yürüttüğümüz sosyal sorumluluk projeleriyle topluma değer katmaya devam ediyoruz."
+        }
+    },
+    "media": {
+        "menu": {
+            "news": "Haberler",
+            "press": "Basın Bültenleri",
+            "gallery": "Galeri"
+        },
+        "news": {
+            "title": "Haberler",
+            "content": "Şirketimizden en son haberler, etkinlikler ve duyurular."
+        },
+        "press": {
+            "title": "Basın Bültenleri",
+            "content": "Basın mensupları için hazırlanan bültenler ve medya kitleri."
+        },
+        "gallery": {
+            "title": "Galeri",
+            "content": "Tesislerimizden, etkinliklerimizden ve ürünlerimizden fotoğraflar ve videolar."
+        }
+    },
+    "career": {
+        "menu": {
+            "policy": "İK Politikamız",
+            "positions": "Açık Pozisyonlar",
+            "application": "İş Başvuru Formu"
+        },
+        "policy": {
+            "title": "İnsan Kaynakları Politikamız",
+            "content": "Çalışanlarımızın kişisel ve mesleki gelişimlerine önem veriyor, adil ve şeffaf bir çalışma ortamı sunuyoruz. İnsan kaynağımız en büyük gücümüzdür."
+        },
+        "positions": {
+            "title": "Açık Pozisyonlar",
+            "content": "Şu anda açık olan pozisyonlarımızı inceleyebilir ve ekibimize katılmak için başvuruda bulunabilirsiniz."
+        },
+        "application": {
+            "title": "İş Başvuru Formu",
+            "content": "Genel başvuru yapmak için lütfen özgeçmişinizi ik@sivasironmetal.com adresine gönderiniz veya aşağıdaki formu doldurunuz."
+        }
+    },
+    "production": {
+        "title": "Üretim Yetenekleri",
+        "subtitle": "Son Teknoloji Üretim",
+        "intro": "Üretim tesislerimiz, her üründe yüksek hassasiyet ve kalite sağlamak için en son teknoloji ile donatılmıştır. Üretim süreci boyunca sıkı kalite kontrol standartlarını koruyoruz.",
+        "process": {
+            "title": "Üretim Süreci",
+            "steps": {
+                "1": {
+                    "title": "Hammadde Seçimi",
+                    "desc": "Sertifikalı tedarikçilerden en kaliteli hammaddelerin temini."
+                },
+                "2": {
+                    "title": "Hassas İşleme",
+                    "desc": "Kesim, şekillendirme ve form verme için gelişmiş makinelerin kullanımı."
+                },
+                "3": {
+                    "title": "Kalite Testleri",
+                    "desc": "Dayanıklılık, mukavemet ve uyumluluk için titiz testler."
+                },
+                "4": {
+                    "title": "Son İşlemler",
+                    "desc": "Daha uzun ömür için yüzey işlemi ve kaplama."
+                }
+            }
+        },
+        "capacity": {
+            "title": "Üretim Kapasitesi",
+            "desc": "Aylık 50.000 tonun üzerindeki kapasitemizle, büyük ölçekli endüstriyel talepleri karşılamaya hazırız.",
+            "stat1": "Yıllık Kapasite",
+            "stat2": "Tesis Alanı",
+            "stat3": "Üretim Hatları"
+        },
+        "technology": {
+            "title": "Teknoloji ve İnovasyon",
+            "desc": "Çelik endüstrisinde önde kalmak için sürekli olarak Ar-Ge ve modern makinelere yatırım yapıyoruz."
+        }
+    },
+    "services": {
+        "title": "Hizmetlerimiz",
+        "subtitle": "Üretimin Ötesinde",
+        "intro": "Projelerinizi baştan sona desteklemek, sorunsuz yürütme ve teslimat sağlamak için kapsamlı hizmetler sunuyoruz.",
+        "items": {
+            "logistics": {
+                "title": "Küresel Lojistik",
+                "desc": "Dünya çapında 20'den fazla ülkeye verimli ve güvenilir nakliye çözümleri."
+            },
+            "consulting": {
+                "title": "Teknik Danışmanlık",
+                "desc": "Malzeme seçimi ve proje spesifikasyonları konusunda uzman tavsiyesi."
+            },
+            "custom": {
+                "title": "Özel İmalat",
+                "desc": "Benzersiz proje gereksinimlerini ve ölçülerini karşılamak için özel çözümler."
+            },
+            "support": {
+                "title": "Satış Sonrası Destek",
+                "desc": "Teslimat sonrası her türlü ihtiyaç için özel müşteri hizmetleri ekibi."
+            }
+        }
+    }
+}
