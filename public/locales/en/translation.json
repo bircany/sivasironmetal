@@ -1,548 +1,348 @@
 {
-    "nav": {
-        "corporate": "Corporate",
-        "products": "Products",
-        "production": "Production",
-        "services": "Services",
-        "contact": "Contact",
-        "investor": "Investor Relations",
-        "sustainability": "Sustainability",
-        "media": "Media",
-        "career": "Career",
-        "privacy": "Privacy Policy",
-        "terms": "Terms of Use"
+  "nav": {
+    "corporate": "Corporate",
+    "products": "Products",
+    "production": "Production",
+    "services": "Services",
+    "references": "References",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "footer": {
+    "rightsReserved": "All rights reserved."
+  },
+  "common": {
+    "getInTouch": "Get in Touch",
+    "requestQuote": "Request Quote",
+    "downloadPdf": "Download PDF",
+    "viewAll": "View All"
+  },
+  "home": {
+    "hero": {
+      "title": "Sivas Iron Metal – Strong Steel, Reliable Supply",
+      "subtitle": "Steel sheets, pipes, profiles, construction products and industrial solutions",
+      "catalogButton": "Product Catalog",
+      "quoteButton": "Get a Quote"
     },
-    "footer": {
-        "rightsReserved": "All rights reserved.",
-        "quickLinks": "Quick Links",
-        "contactInfo": "Contact Info",
-        "certifications": "Certifications",
-        "certText": "ISO 9001:2015 Certified\nInternational Trade Compliance\nQuality Assurance Standards",
-        "desc": "Your trusted partner in global steel and iron trade. Quality products, reliable service, international excellence."
+    "stats": {
+      "experience": {
+        "label": "Experience",
+        "value": "30+ Years"
+      },
+      "export": {
+        "label": "Export",
+        "value": "20+ Countries"
+      },
+      "products": {
+        "label": "Product Variety",
+        "value": "500+"
+      },
+      "quality": {
+        "label": "Quality",
+        "value": "Industrial Certificates"
+      }
     },
-    "common": {
-        "viewAll": "View All",
-        "backToProducts": "Back to Products",
-        "learnMore": "Learn More",
-        "callNow": "Call Now",
-        "getInTouch": "Get In Touch"
-    },
-    "home": {
-        "hero": {
-            "title": "Global Steel & Iron Trade Excellence",
-            "subtitle": "Your trusted partner for premium steel and iron products worldwide. Quality, reliability, and global reach you can depend on.",
-            "catalogButton": "Product Catalog",
-            "quoteButton": "Contact Us"
+    "mainSection": {
+      "title": "Products, Production and Services",
+      "desc": "We offer a wide range of products meeting the highest quality standards in the industry and state-of-the-art production solutions.",
+      "items": {
+        "catalog": {
+          "title": "Product Catalog",
+          "desc": "Discover our wide range of steel sheets, pipes and profiles."
         },
-        "stats": {
-            "experience": "Experience",
-            "export": "Export",
-            "products": "Product Range",
-            "quality": "Quality"
+        "production": {
+          "title": "Production & Machinery",
+          "desc": "See our high precision production capacity in our modern facilities."
         },
-        "products": {
-            "title": "Our Products",
-            "description": "Comprehensive range of steel and iron products for diverse industrial applications"
-        },
-        "whyUs": {
-            "title": "Why Choose Sivas Iron Metal?",
-            "subtitle": "We have valid reasons for you to choose us.",
-            "items": {
-                "1": {
-                    "title": "Premium Quality",
-                    "desc": "Rigorous quality control ensures every product meets international standards and exceeds expectations."
-                },
-                "2": {
-                    "title": "Global Reach",
-                    "desc": "Extensive international network enables seamless trade across continents with reliable logistics."
-                },
-                "3": {
-                    "title": "Trusted Partner",
-                    "desc": "Decades of experience building long-term relationships with clients worldwide based on trust and reliability."
-                },
-                "4": {
-                    "title": "Certified Excellence",
-                    "desc": "International certifications and compliance with global trade standards and regulations."
-                }
-            }
+        "services": {
+          "title": "Import-Export Services",
+          "desc": "Reliable logistics and trade solutions providing access to global markets."
         },
         "references": {
-            "title": "Our References"
-        },
-        "cta": {
-            "title": "Ready to Start Your Next Project?",
-            "subtitle": "Get in touch with our team for personalized service and competitive pricing"
+          "title": "References & Countries",
+          "desc": "Projects we have successfully completed and countries we serve."
         }
+      }
     },
-    "corporate": {
-        "menu": {
-            "about": "About Us",
-            "vision": "Vision & Mission",
-            "quality": "Quality Policy",
-            "history": "History"
-        },
-        "about": {
-            "title": "About Us",
-            "subtitle": "Excellence in Steel & Iron International Trade",
-            "p1": "Sivas Iron Metal stands as a premier leader in the global steel and iron import/export industry. With decades of experience and unwavering commitment to quality, we have established ourselves as a trusted partner for businesses worldwide seeking premium metal products.",
-            "p2": "Our company specializes in sourcing, processing, and distributing high-grade steel and iron materials to meet diverse industrial needs. We pride ourselves on maintaining the highest standards of quality control, ensuring that every product that leaves our facilities meets or exceeds international specifications.",
-            "p3": "At Sivas Iron Metal, we understand that in today's global economy, reliable supply chains and consistent quality are paramount. That's why we've built strong relationships with suppliers and clients across continents, creating a robust network that enables seamless international trade."
-        },
-        "vision": {
-            "title": "Our Vision",
-            "content": "To shape the future of international metal trade by continuously innovating, expanding our global reach, and setting new benchmarks for quality and service excellence in the industry."
-        },
-        "mission": {
-            "title": "Our Mission",
-            "content": "To be the global leader in steel and iron trade by delivering exceptional quality products, maintaining the highest standards of customer service, and building lasting partnerships based on trust and reliability."
-        },
-        "quality": {
-            "title": "Quality Policy",
-            "content": "In accordance with ISO 9001, ISO 14001, and OHSAS 18001 standards, we commit to keeping customer satisfaction at the highest level, continuously improving our processes, and fully complying with legal regulations."
-        },
-        "history": {
-            "title": "Our History",
-            "content": "Our journey, which started as a small workshop in Sivas in 1994, has turned into a giant industrial organization exporting to more than 20 countries today. We continue to grow by increasing our capacity every year."
-        },
-        "values": {
-            "title": "Our Core Values",
-            "items": {
-                "quality": {
-                    "title": "Quality First",
-                    "desc": "Uncompromising commitment to delivering products that exceed expectations and meet the highest international standards."
-                },
-                "reliability": {
-                    "title": "Reliability",
-                    "desc": "Consistent performance and dependable service that our clients can count on, every single time."
-                },
-                "integrity": {
-                    "title": "Integrity",
-                    "desc": "Transparent business practices and ethical conduct in all our dealings with clients, partners, and stakeholders."
-                },
-                "innovation": {
-                    "title": "Innovation",
-                    "desc": "Continuous improvement and adoption of best practices to stay ahead in an evolving global marketplace."
-                },
-                "customer": {
-                    "title": "Customer Focus",
-                    "desc": "Dedicated to understanding and meeting the unique needs of each client with personalized service and solutions."
-                },
-                "global": {
-                    "title": "Global Perspective",
-                    "desc": "Worldwide network and cultural understanding that enables successful international trade relationships."
-                }
-            }
-        }
-    },
-    "products": {
-        "title": "Our Products",
-        "description": "Comprehensive Range of Steel & Iron Products",
-        "intro": "We offer a comprehensive range of high-quality steel and iron products for diverse industrial applications. From construction materials to specialized alloys, our products meet the highest international standards and specifications.",
-        "features": "Product Features",
-        "categories": {
-            "sheets": "Steel Sheets",
-            "pipes": "Pipes Group",
-            "profiles": "Profiles Group",
-            "construction": "Construction Materials"
-        },
-        "items": {
-            "hr-sheets": {
-                "name": "Hot Rolled Sheets",
-                "desc": "High strength sheets used in general structural steels, pipe profile production, and machinery manufacturing.",
-                "feature1": "High strength",
-                "feature2": "Easy formability",
-                "feature3": "Wide range of sizes"
-            },
-            "cr-sheets": {
-                "name": "Cold Rolled Sheets",
-                "desc": "Precision surface sheets preferred in automotive, white goods, and radiator production.",
-                "feature1": "Smooth surface",
-                "feature2": "Precise thickness tolerance",
-                "feature3": "Superior paint adhesion"
-            },
-            "galvanized-pipes": {
-                "name": "Galvanized Pipes",
-                "desc": "Long-lasting pipes with high corrosion resistance used in water and gas installations.",
-                "feature1": "Corrosion resistance",
-                "feature2": "Long service life",
-                "feature3": "Pressure resistant"
-            },
-            "box-profiles": {
-                "name": "Box Profiles",
-                "desc": "Square and rectangular profiles used in steel construction structures, roof systems, and machine chassis.",
-                "feature1": "High load capacity",
-                "feature2": "Aesthetic appearance",
-                "feature3": "Easy assembly"
-            },
-            "ipe-profiles": {
-                "name": "IPE Profiles",
-                "desc": "I-section profiles used in the load-bearing systems of industrial structures and multi-story buildings.",
-                "feature1": "Optimum weight/strength ratio",
-                "feature2": "Economical solution",
-                "feature3": "Production according to standards"
-            },
-            "steel-mesh": {
-                "name": "Steel Mesh",
-                "desc": "Reinforcement material used in reinforced concrete structures, field concretes, and tunnel formwork systems.",
-                "feature1": "Time and labor saving",
-                "feature2": "Homogeneous reinforcement distribution",
-                "feature3": "High adherence"
-            }
-        }
-    },
-    "contact": {
-        "title": "Contact Us",
-        "subtitle": "Get in Touch With Our Team",
-        "intro": "For product inquiries, quotes, orders, or any questions about our steel and iron products, please contact us directly. We prioritize phone communication for immediate assistance and personalized service.",
-        "infoTitle": "Contact Information",
-        "infoDesc": "You can reach us via the contact channels below or leave a message by filling out the form.",
-        "address": "Address",
-        "phone": "Phone",
-        "email": "Email",
-        "hours": "Working Hours",
-        "hoursDesc": "Mon - Fri: 08:30 - 18:00",
-        "formTitle": "Send Us a Message",
-        "form": {
-            "name": "Full Name",
-            "email": "Email Address",
-            "subject": "Subject",
-            "message": "Message",
-            "submit": "Send Message"
-        }
-    },
-    "investor": {
-        "menu": {
-            "general": "General Information",
-            "financial": "Financial Data",
-            "stock": "Stock Information",
-            "reports": "Annual Reports"
-        },
-        "general": {
-            "title": "General Information",
-            "content": "Sivas Iron Metal aims to add value to its investors with its transparent and accountable management approach. Our company continues to be a trusted harbor in the sector with its sustainable growth strategies and strong financial structure."
-        },
-        "financial": {
-            "title": "Financial Data",
-            "content": "Our financial statements, income statements, and balance sheets for the last 5 years are regularly audited and shared with the public. Our profitability ratios and growth figures are in a stable upward trend."
-        },
-        "stock": {
-            "title": "Stock Information",
-            "content": "You can access detailed information about our company's stock performance, dividend policies, and capital increase processes here. Protecting the rights of our investors is our top priority."
-        },
-        "reports": {
-            "title": "Annual Reports",
-            "content": "Our annual and quarterly activity reports, board of directors messages, and future vision are located in this section."
-        }
-    },
-    "sustainability": {
-        "menu": {
-            "policy": "Environmental Policy",
-            "certificates": "Certificates",
-            "social": "Social Responsibility"
-        },
-        "policy": {
-            "title": "Environmental Policy",
-            "content": "We commit to minimizing environmental impacts in our production processes to leave a livable world for future generations. We lead the sector with our energy efficiency, waste management, and carbon footprint reduction efforts."
-        },
-        "certificates": {
-            "title": "Certificates",
-            "content": "We document our sensitivity to the environment with our ISO 14001 Environmental Management System and other international sustainability certificates."
-        },
-        "social": {
-            "title": "Social Responsibility",
-            "content": "We continue to add value to society with our social responsibility projects in the fields of education, health, and environment."
-        }
-    },
-    "media": {
-        "menu": {
-            "news": "News",
-            "press": "Press Releases",
-            "gallery": "Gallery"
-        },
-        "news": {
-            "title": "News",
-            "content": "Latest news, events, and announcements from our company."
-        },
-        "press": {
-            "title": "Press Releases",
-            "content": "Press releases and media kits prepared for press members."
-        },
-        "gallery": {
-            "title": "Gallery",
-            "content": "Photos and videos from our facilities, events, and products."
-        }
-    },
-    "career": {
-        "menu": {
-            "policy": "HR Policy",
-            "positions": "Open Positions",
-            "application": "Application Form"
-        },
-        "policy": {
-            "title": "Human Resources Policy",
-            "content": "We attach importance to the personal and professional development of our employees and offer a fair and transparent working environment. Our human resources are our greatest strength."
-        },
-        "positions": {
-            "title": "Open Positions",
-            "content": "You can review our currently open positions and apply to join our team.""content": "To shape the future of international metal trade by continuously innovating, expanding our global reach, and setting new benchmarks for quality and service excellence in the industry."
-        },
-        "mission": {
-            "title": "Our Mission",
-            "content": "To be the global leader in steel and iron trade by delivering exceptional quality products, maintaining the highest standards of customer service, and building lasting partnerships based on trust and reliability."
-        },
-        "quality": {
-            "title": "Quality Policy",
-            "content": "In accordance with ISO 9001, ISO 14001, and OHSAS 18001 standards, we commit to keeping customer satisfaction at the highest level, continuously improving our processes, and fully complying with legal regulations."
-        },
-        "history": {
-            "title": "Our History",
-            "content": "Our journey, which started as a small workshop in Sivas in 1994, has turned into a giant industrial organization exporting to more than 20 countries today. We continue to grow by increasing our capacity every year."
-        },
-        "values": {
-            "title": "Our Core Values",
-            "items": {
-                "quality": {
-                    "title": "Quality First",
-                    "desc": "Uncompromising commitment to delivering products that exceed expectations and meet the highest international standards."
-                },
-                "reliability": {
-                    "title": "Reliability",
-                    "desc": "Consistent performance and dependable service that our clients can count on, every single time."
-                },
-                "integrity": {
-                    "title": "Integrity",
-                    "desc": "Transparent business practices and ethical conduct in all our dealings with clients, partners, and stakeholders."
-                },
-                "innovation": {
-                    "title": "Innovation",
-                    "desc": "Continuous improvement and adoption of best practices to stay ahead in an evolving global marketplace."
-                },
-                "customer": {
-                    "title": "Customer Focus",
-                    "desc": "Dedicated to understanding and meeting the unique needs of each client with personalized service and solutions."
-                },
-                "global": {
-                    "title": "Global Perspective",
-                    "desc": "Worldwide network and cultural understanding that enables successful international trade relationships."
-                }
-            }
-        }
-    },
-    "products": {
-        "title": "Our Products",
-        "description": "Comprehensive Range of Steel & Iron Products",
-        "intro": "We offer a comprehensive range of high-quality steel and iron products for diverse industrial applications. From construction materials to specialized alloys, our products meet the highest international standards and specifications.",
-        "features": "Product Features",
-        "categories": {
-            "sheets": "Steel Sheets",
-            "pipes": "Pipes Group",
-            "profiles": "Profiles Group",
-            "construction": "Construction Materials"
-        },
-        "items": {
-            "hr-sheets": {
-                "name": "Hot Rolled Sheets",
-                "desc": "High strength sheets used in general structural steels, pipe profile production, and machinery manufacturing.",
-                "feature1": "High strength",
-                "feature2": "Easy formability",
-                "feature3": "Wide range of sizes"
-            },
-            "cr-sheets": {
-                "name": "Cold Rolled Sheets",
-                "desc": "Precision surface sheets preferred in automotive, white goods, and radiator production.",
-                "feature1": "Smooth surface",
-                "feature2": "Precise thickness tolerance",
-                "feature3": "Superior paint adhesion"
-            },
-            "galvanized-pipes": {
-                "name": "Galvanized Pipes",
-                "desc": "Long-lasting pipes with high corrosion resistance used in water and gas installations.",
-                "feature1": "Corrosion resistance",
-                "feature2": "Long service life",
-                "feature3": "Pressure resistant"
-            },
-            "box-profiles": {
-                "name": "Box Profiles",
-                "desc": "Square and rectangular profiles used in steel construction structures, roof systems, and machine chassis.",
-                "feature1": "High load capacity",
-                "feature2": "Aesthetic appearance",
-                "feature3": "Easy assembly"
-            },
-            "ipe-profiles": {
-                "name": "IPE Profiles",
-                "desc": "I-section profiles used in the load-bearing systems of industrial structures and multi-story buildings.",
-                "feature1": "Optimum weight/strength ratio",
-                "feature2": "Economical solution",
-                "feature3": "Production according to standards"
-            },
-            "steel-mesh": {
-                "name": "Steel Mesh",
-                "desc": "Reinforcement material used in reinforced concrete structures, field concretes, and tunnel formwork systems.",
-                "feature1": "Time and labor saving",
-                "feature2": "Homogeneous reinforcement distribution",
-                "feature3": "High adherence"
-            }
-        }
-    },
-    "contact": {
-        "title": "Contact Us",
-        "subtitle": "Get in Touch With Our Team",
-        "intro": "For product inquiries, quotes, orders, or any questions about our steel and iron products, please contact us directly. We prioritize phone communication for immediate assistance and personalized service.",
-        "infoTitle": "Contact Information",
-        "infoDesc": "You can reach us via the contact channels below or leave a message by filling out the form.",
-        "address": "Address",
-        "phone": "Phone",
-        "email": "Email",
-        "hours": "Working Hours",
-        "hoursDesc": "Mon - Fri: 08:30 - 18:00",
-        "formTitle": "Send Us a Message",
-        "form": {
-            "name": "Full Name",
-            "email": "Email Address",
-            "subject": "Subject",
-            "message": "Message",
-            "submit": "Send Message"
-        }
-    },
-    "investor": {
-        "menu": {
-            "general": "General Information",
-            "financial": "Financial Data",
-            "stock": "Stock Information",
-            "reports": "Annual Reports"
-        },
-        "general": {
-            "title": "General Information",
-            "content": "Sivas Iron Metal aims to add value to its investors with its transparent and accountable management approach. Our company continues to be a trusted harbor in the sector with its sustainable growth strategies and strong financial structure."
-        },
-        "financial": {
-            "title": "Financial Data",
-            "content": "Our financial statements, income statements, and balance sheets for the last 5 years are regularly audited and shared with the public. Our profitability ratios and growth figures are in a stable upward trend."
-        },
-        "stock": {
-            "title": "Stock Information",
-            "content": "You can access detailed information about our company's stock performance, dividend policies, and capital increase processes here. Protecting the rights of our investors is our top priority."
-        },
-        "reports": {
-            "title": "Annual Reports",
-            "content": "Our annual and quarterly activity reports, board of directors messages, and future vision are located in this section."
-        }
-    },
-    "sustainability": {
-        "menu": {
-            "policy": "Environmental Policy",
-            "certificates": "Certificates",
-            "social": "Social Responsibility"
-        },
-        "policy": {
-            "title": "Environmental Policy",
-            "content": "We commit to minimizing environmental impacts in our production processes to leave a livable world for future generations. We lead the sector with our energy efficiency, waste management, and carbon footprint reduction efforts."
-        },
-        "certificates": {
-            "title": "Certificates",
-            "content": "We document our sensitivity to the environment with our ISO 14001 Environmental Management System and other international sustainability certificates."
-        },
-        "social": {
-            "title": "Social Responsibility",
-            "content": "We continue to add value to society with our social responsibility projects in the fields of education, health, and environment."
-        }
-    },
-    "media": {
-        "menu": {
-            "news": "News",
-            "press": "Press Releases",
-            "gallery": "Gallery"
-        },
-        "news": {
-            "title": "News",
-            "content": "Latest news, events, and announcements from our company."
-        },
-        "press": {
-            "title": "Press Releases",
-            "content": "Press releases and media kits prepared for press members."
-        },
-        "gallery": {
-            "title": "Gallery",
-            "content": "Photos and videos from our facilities, events, and products."
-        }
-    },
-    "career": {
-        "menu": {
-            "policy": "HR Policy",
-            "positions": "Open Positions",
-            "application": "Application Form"
-        },
-        "policy": {
-            "title": "Human Resources Policy",
-            "content": "We attach importance to the personal and professional development of our employees and offer a fair and transparent working environment. Our human resources are our greatest strength."
-        },
-        "positions": {
-            "title": "Open Positions",
-            "content": "You can review our currently open positions and apply to join our team."
-        },
-        "application": {
-            "title": "Application Form",
-            "content": "To make a general application, please send your CV to hr@sivasironmetal.com or fill out the form below."
-        }
-    },
-    "production": {
-        "title": "Production Capability",
-        "subtitle": "State-of-the-Art Manufacturing",
-        "intro": "Our production facilities are equipped with the latest technology to ensure high precision and quality in every product. We maintain strict quality control standards throughout the manufacturing process.",
-        "process": {
-            "title": "Production Process",
-            "steps": {
-                "1": {
-                    "title": "Raw Material Selection",
-                    "desc": "Sourcing the finest quality raw materials from certified suppliers."
-                },
-                "2": {
-                    "title": "Precision Processing",
-                    "desc": "Using advanced machinery for cutting, shaping, and forming."
-                },
-                "3": {
-                    "title": "Quality Testing",
-                    "desc": "Rigorous testing for strength, durability, and compliance."
-                },
-                "4": {
-                    "title": "Final Finishing",
-                    "desc": "Surface treatment and coating for enhanced longevity."
-                }
-            }
-        },
-        "capacity": {
-            "title": "Production Capacity",
-            "desc": "With a monthly capacity of over 50,000 tons, we are ready to meet large-scale industrial demands.",
-            "stat1": "Annual Capacity",
-            "stat2": "Facility Area",
-            "stat3": "Production Lines"
-        },
-        "technology": {
-            "title": "Technology & Innovation",
-            "desc": "We continuously invest in R&D and modern machinery to stay ahead in the steel industry."
-        }
-    },
-    "services": {
-        "title": "Our Services",
-        "subtitle": "Beyond Manufacturing",
-        "intro": "We provide comprehensive services to support your projects from start to finish, ensuring seamless execution and delivery.",
-        "items": {
-            "logistics": {
-                "title": "Global Logistics",
-                "desc": "Efficient and reliable shipping solutions to over 20 countries worldwide."
-            },
-            "consulting": {
-                "title": "Technical Consulting",
-                "desc": "Expert advice on material selection and project specifications."
-            },
-            "custom": {
-                "title": "Custom Fabrication",
-                "desc": "Tailored solutions to meet unique project requirements and dimensions."
-            },
-            "support": {
-                "title": "After-Sales Support",
-                "desc": "Dedicated customer service team to assist with any post-delivery needs."
-            }
-        }
+    "cta": {
+      "title": "Ready to Work with Us?",
+      "subtitle": "Contact us for your projects and get a special offer."
     }
+  },
+  "services": {
+    "title": "Import & Export Services",
+    "intro": "We add value to your business with our global trade network and logistics solutions.",
+    "items": {
+      "logistics": {
+        "title": "Logistics Solutions",
+        "desc": "Fast and safe delivery to all over the world."
+      },
+      "consultancy": {
+        "title": "Global Trade",
+        "desc": "Strategic guidance in international markets."
+      },
+      "technical": {
+        "title": "Technical Support",
+        "desc": "Expert solution partners for your production processes."
+      },
+      "support": {
+        "title": "Customer Service",
+        "desc": "24/7 support for all your questions and needs."
+      }
+    },
+    "map": {
+      "title": "Exporting to Over 20 Countries",
+      "desc": "Our global reach is a testament to our experience and reliability. We have established strong trade routes and partnerships across continents, ensuring timely and efficient delivery to our clients worldwide. Explore our interactive map to see the extent of our export network."
+    },
+    "tabs": {
+      "quality": "International Quality Standards",
+      "delivery": "Delivery Models (Incoterms)",
+      "qualityContent": "We are committed to upholding the highest international quality standards in every transaction. Our processes are certified and compliant with key industry benchmarks, including ISO 9001 for Quality Management and ISO 14001 for Environmental Management. This ensures that every product we handle meets rigorous specifications for quality, safety, and sustainability, providing our clients with peace of mind and unparalleled reliability.",
+      "deliveryContent": "We offer flexible delivery terms including EXW, FOB, CIF, and DAP to suit your logistical needs. Our experienced team ensures smooth handling of all shipping documentation and customs procedures."
+    },
+    "cta": {
+      "title": "Ready to Streamline Your Metal Trade?",
+      "desc": "Contact our trade experts today for a personalized consultation and discover how our global solutions can benefit your business.",
+      "button": "Request a Quote"
+    }
+  },
+  "production": {
+    "title": "Production Facilities",
+    "intro": "High capacity production with modern technology.",
+    "nav": {
+      "slitting": "Slitting Line",
+      "cutToLength": "Cut to Length Line",
+      "profile": "Profile Production Line",
+      "pipe": "Pipe Production Line",
+      "cnc": "CNC & Plasma Cutting"
+    },
+    "lines": {
+      "slitting": {
+        "title": "Slitting Line",
+        "subtitle": "Precision Slitting",
+        "desc": "High precision slitting of coils to desired widths."
+      },
+      "cutToLength": {
+        "title": "Cut to Length Line",
+        "subtitle": "Sheet Cutting",
+        "desc": "Flattening and cutting of coils to desired lengths."
+      },
+      "profile": {
+        "title": "Profile Production Line",
+        "subtitle": "Pipe & Profile",
+        "desc": "Production of box profiles and industrial pipes."
+      },
+      "cnc": {
+        "title": "CNC & Plasma Cutting",
+        "subtitle": "Custom Cutting",
+        "desc": "Precise cutting of thick plates with plasma technology."
+      },
+      "pipe": {
+        "title": "Pipe Production Line",
+        "subtitle": "Pipe & Profile",
+        "desc": "Production of box profiles and industrial pipes."
+      }
+    },
+    "sections": {
+      "slitting": {
+        "title": "Slitting Line",
+        "desc": "Our high-precision slitting line is engineered to process a wide range of steel coils, converting them into narrower strips with exceptional accuracy. This critical first step ensures that all subsequent manufacturing processes begin with materials of the highest quality and exact specifications."
+      },
+      "cutToLength": {
+        "title": "Cut to Length Line",
+        "desc": "The cut-to-length line transforms steel coils into flat, rectangular sheets of precise lengths. Our advanced leveling and shearing technology guarantees perfectly flat sheets with clean, burr-free edges, ready for fabrication or direct use by our clients."
+      },
+      "profile": {
+        "title": "Profile Production Line",
+        "desc": "Our profile production line utilizes advanced roll forming technology to create a diverse range of standard and custom profiles. This continuous process ensures dimensional consistency and high structural integrity for applications across construction, automotive, and other industries."
+      },
+      "pipe": {
+        "title": "Pipe Production Line",
+        "desc": "Our pipe production line is equipped to manufacture high-quality industrial and construction pipes. Using precision welding and forming techniques, we produce pipes that meet strict international standards for strength, durability, and dimensional accuracy."
+      },
+      "cnc": {
+        "title": "CNC & Plasma Cutting",
+        "desc": "For intricate shapes and heavy-duty cutting, our CNC plasma and laser cutting lines offer unparalleled precision. Capable of handling thick plates, these machines can produce complex components with tight tolerances, meeting the most demanding engineering requirements."
+      }
+    },
+    "specs": {
+      "title": "Technical Specifications",
+      "thickness": "Thickness",
+      "width": "Width",
+      "weight": "Coil Weight",
+      "speed": "Line Speed",
+      "tolerance": "Length Tolerance",
+      "packaging": "Packaging",
+      "autoStacking": "Automatic Stacking",
+      "profileDims": "Profile Dimensions",
+      "pipeDia": "Pipe Diameter",
+      "wallThickness": "Wall Thickness",
+      "standards": "Standards",
+      "plasmaCap": "Plasma Capacity",
+      "oxygenCap": "Oxygen Capacity",
+      "tableDims": "Table Dimensions",
+      "precision": "Cutting Precision",
+      "length": "Sheet Length",
+      "accuracy": "Length Accuracy",
+      "types": "Profile Types",
+      "material": "Material",
+      "diameter": "Pipe Diameter",
+      "technology": "Cutting Technology",
+      "maxThickness": "Max Plate Thickness",
+      "area": "Working Area"
+    },
+    "hero": {
+      "title": "MACHINERY PARK & PRODUCTION LINES",
+      "subtitle": "Explore our state-of-the-art technology and advanced production capabilities that set the industry standard."
+    }
+  },
+  "products": {
+    "title": "Product Catalog",
+    "intro": "Discover our high quality iron and steel products.",
+    "hero": {
+      "badge": "Premium Quality Metals",
+      "title": "Product Catalog",
+      "subtitle": "Discover our high quality iron and steel products. Reliable solutions for your industrial needs."
+    },
+    "categories": {
+      "sheets": "Hot / Cold Rolled Steel Sheets",
+      "sheets_desc": "Premium Grade Steel Sheets",
+      "galvanized": "Galvanized Sheets",
+      "galvanized_desc": "Galvanized Steel Products",
+      "pipes": "Pipes & Profiles",
+      "pipes_desc": "Pipes & Profiles"
+    },
+    "items": {
+      "hr-sheets": {
+        "name": "Hot Rolled Coil",
+        "desc": "High strength structural steels"
+      },
+      "cr-sheets": {
+        "name": "Cold Rolled Sheet",
+        "desc": "Precision surface industrial sheets"
+      },
+      "hrp-sheets": {
+        "name": "Pickled Coil (HRP)",
+        "desc": "Pickled and oiled hot rolled sheets"
+      },
+      "checkered-sheets": {
+        "name": "Checkered Sheet",
+        "desc": "Anti-slip floor sheets"
+      },
+      "tempered-sheets": {
+        "name": "Tempered Steel Sheet",
+        "desc": "High strength sheets"
+      },
+      "galvanized-sheets": {
+        "name": "Galvanized Coil & Sheet",
+        "desc": "High corrosion resistance coated sheets"
+      },
+      "galvanized-coil": {
+        "name": "Galvanized Coil",
+        "desc": "Galvanized sheet in coil form"
+      },
+      "galvanized-pipes": {
+        "name": "Galvanized Pipes",
+        "desc": "Installation and construction pipes"
+      },
+      "box-profiles": {
+        "name": "Box Profiles",
+        "desc": "Square and rectangular structural profiles"
+      },
+      "industrial-pipes": {
+        "name": "Industrial Pipes",
+        "desc": "Special pipes for industrial use"
+      }
+    },
+    "status": {
+      "inStock": "In Stock",
+      "onOrder": "On Order"
+    }
+  },
+  "corporate": {
+    "certificates": {
+      "title": "Quality Certificates",
+      "intro": "Our commitment to international standards and quality is at the core of our operations.",
+      "items": {
+        "iso9001": {
+          "desc": "Quality Management System Certificate"
+        },
+        "iso14001": {
+          "desc": "Environmental Management System Certificate"
+        },
+        "ohsas18001": {
+          "desc": "Occupational Health & Safety Management System"
+        },
+        "ce": {
+          "title": "CE Compliance",
+          "desc": "Conformity with European Standards"
+        },
+        "en": {
+          "title": "EN Standards",
+          "desc": "EN 10219 / EN 10305 Compliance"
+        }
+      }
+    }
+  },
+  "references": {
+    "title": "References & Countries",
+    "intro": "Our global reach and trusted business partners.",
+    "partners": {
+      "title": "Our Partners in Success"
+    },
+    "global": {
+      "title": "Operating Across the Globe"
+    },
+    "stats": {
+      "clients": "Happy Clients",
+      "projects": "Completed Projects"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch With Our Team",
+    "info": {
+      "title": "Contact Information",
+      "desc": "You can reach us via the contact channels below or leave a message by filling out the form.",
+      "address": {
+        "title": "Address",
+        "value": "Organize Sanayi Bölgesi 1. Cadde No: 58<br />Sivas, Türkiye"
+      },
+      "phone": {
+        "title": "Phone"
+      },
+      "email": {
+        "title": "Email"
+      },
+      "hours": {
+        "title": "Working Hours",
+        "value": "Mon - Fri: 08:30 - 18:00"
+      }
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "chatbot": {
+    "welcome": "Hello! How can I help you?",
+    "placeholder": "Type a message...",
+    "q1": "How can I access the product catalog?",
+    "q2": "I want to get a price quote.",
+    "q3": "What are your contact details?",
+    "q4": "Which countries do you export to?",
+    "ai": {
+      "price": "To get a price quote, please contact us via WhatsApp or our contact form. Our sales team will get back to you as soon as possible.",
+      "products": "You can view our wide range of products on the \"Products\" page. Check out our catalog for sheets, pipes, profiles, and more.",
+      "contact": "You can reach us at +90 346 222 22 22 or info@sivasironmetal.com. Our office is located in Sivas Organized Industrial Zone.",
+      "greeting": "Hello! How can I help you?",
+      "default": "To help you with this, please contact our customer representative or write your question in more detail.",
+      "productInquiry": "I want to get detailed information and a price quote about {{product}}."
+    }
+  }
 }

@@ -8,13 +8,15 @@ import ProductDetail from './pages/products/ProductDetail';
 import Contact from './pages/Contact';
 import About from './pages/corporate/About';
 import VisionMission from './pages/corporate/VisionMission';
-import GenericCorporate from './pages/corporate/GenericCorporate';
+import QualityCertificates from './pages/corporate/QualityCertificates';
+import History from './pages/corporate/History';
 import SidebarLayout from './layouts/SidebarLayout';
 import GenericPage from './pages/GenericPage';
 import { Navigate } from 'react-router-dom';
 import { PieChart, TrendingUp, BarChart3, FileText, Leaf, Award, Users } from 'lucide-react';
 import Production from './pages/Production';
 import Services from './pages/Services';
+import References from './pages/References';
 
 function App() {
   return (
@@ -27,8 +29,8 @@ function App() {
             <Route index element={<Navigate to="hakkimizda" replace />} />
             <Route path="hakkimizda" element={<About />} />
             <Route path="vizyon-misyon" element={<VisionMission />} />
-            <Route path="kalite-politikamiz" element={<GenericCorporate type="quality" />} />
-            <Route path="tarihce" element={<GenericCorporate type="history" />} />
+            <Route path="kalite-politikamiz" element={<QualityCertificates />} />
+            <Route path="tarihce" element={<History />} />
           </Route>
 
           <Route path="urunlerimiz" element={<ProductsLayout />}>
@@ -36,6 +38,8 @@ function App() {
             <Route path="kategori/:categoryId" element={<ProductList />} />
             <Route path="detay/:productId" element={<ProductDetail />} />
           </Route>
+          
+          <Route path="referanslar" element={<References />} />
           {/* Investor Relations */}
           <Route
             path="yatirimci-iliskileri"

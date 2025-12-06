@@ -1,15 +1,18 @@
 import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
+    const { t } = useTranslation();
+
     const footerLinks = [
-        { key: 'corporate', path: '/kurumsal', label: 'Corporate' },
-        { key: 'products', path: '/urunlerimiz', label: 'Products' },
-        { key: 'production', path: '/uretim', label: 'Production' },
-        { key: 'services', path: '/hizmetler', label: 'Services' },
-        { key: 'contact', path: '/iletisim', label: 'Contact' },
-        { key: 'privacy', path: '/gizlilik', label: 'Privacy Policy' },
-        { key: 'terms', path: '/kullanim-sartlari', label: 'Terms of Use' },
+        { key: 'corporate', path: '/kurumsal', label: t('nav.corporate') },
+        { key: 'products', path: '/urunlerimiz', label: t('nav.products') },
+        { key: 'production', path: '/uretim', label: t('nav.production') },
+        { key: 'services', path: '/hizmetler', label: t('nav.services') },
+        { key: 'contact', path: '/iletisim', label: t('nav.contact') },
+        { key: 'privacy', path: '/gizlilik', label: t('nav.privacy') },
+        { key: 'terms', path: '/kullanim-sartlari', label: t('nav.terms') },
     ];
 
     return (
@@ -29,7 +32,7 @@ export default function Footer() {
 
                 <div className="mt-8 flex flex-col items-center justify-between gap-6 border-t border-white/10 pt-8 sm:flex-row">
                     <p className="text-base font-normal">
-                        © {new Date().getFullYear()} Sivas Iron Metal. All rights reserved.
+                        © {new Date().getFullYear()} Sivas Iron Metal. {t('footer.rightsReserved')}
                     </p>
 
                     <div className="flex gap-4">

@@ -26,6 +26,12 @@ export default function CorporateLayout() {
                                 {menuItems.map((item) => {
                                     const Icon = item.icon;
                                     const isActive = location.pathname === item.path;
+                                    const defaultLabels: Record<string, string> = {
+                                        about: 'Hakkımızda',
+                                        vision: 'Vizyon & Misyon',
+                                        quality: 'Kalite Politikamız',
+                                        history: 'Tarihçe'
+                                    };
                                     return (
                                         <Link
                                             key={item.key}
@@ -38,7 +44,7 @@ export default function CorporateLayout() {
                                             )}
                                         >
                                             <Icon className="size-5" />
-                                            {t(`corporate.menu.${item.key}`)}
+                                            {t(`corporate.menu.${item.key}`, defaultLabels[item.key])}
                                         </Link>
                                     );
                                 })}

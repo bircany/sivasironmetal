@@ -1,121 +1,119 @@
-import { motion } from 'framer-motion';
-import { Ship, PenTool, Ruler, Headphones, ArrowRight } from 'lucide-react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import ThreeBackground from '../components/ThreeBackground';
 
 export default function Services() {
-
-    const services = [
-        {
-            id: 'logistics',
-            icon: Ship,
-            image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80',
-            title: 'Global Logistics',
-            desc: 'Efficient and reliable shipping solutions to over 20 countries worldwide.'
-        },
-        {
-            id: 'consulting',
-            icon: PenTool,
-            image: 'https://images.unsplash.com/photo-1553877615-30c73e63cf4d?auto=format&fit=crop&q=80',
-            title: 'Technical Consulting',
-            desc: 'Expert advice on material selection and project specifications.'
-        },
-        {
-            id: 'custom',
-            icon: Ruler,
-            image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80',
-            title: 'Custom Fabrication',
-            desc: 'Tailored solutions to meet unique project requirements and dimensions.'
-        },
-        {
-            id: 'support',
-            icon: Headphones,
-            image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80',
-            title: 'After-Sales Support',
-            desc: 'Dedicated customer service team to assist with any post-delivery needs.'
-        }
-    ];
+    const { t } = useTranslation();
+    const [activeTab, setActiveTab] = useState<'quality' | 'delivery'>('quality');
 
     return (
-        <div className="flex flex-col">
-            {/* Hero Section */}
-            <div className="relative h-[40vh] min-h-[300px] w-full overflow-hidden bg-gray-900">
-                <div className="absolute inset-0">
-                    <img
-                        src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80"
-                        alt="Services"
-                        className="h-full w-full object-cover opacity-30"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-r from-gray-900 to-transparent" />
-                </div>
-                <div className="relative flex h-full items-center px-4 md:px-10 lg:px-20">
-                    <motion.div
-                        initial={{ opacity: 0, x: -30 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.8 }}
-                    >
-                        <h1 className="text-4xl font-bold text-white md:text-6xl">Our Services</h1>
-                        <p className="mt-4 text-xl text-gray-300 md:text-2xl">Beyond Manufacturing</p>
-                    </motion.div>
+        <div className="flex flex-col min-h-screen w-full bg-white overflow-x-hidden">
+            {/* Full Width Hero Section */}
+            <div 
+                className="relative flex min-h-[600px] flex-col items-center justify-center bg-cover bg-center bg-no-repeat pt-20 pb-40"
+                style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDIJMvBwDwEjaU3p1ZEYAXnnIE8_dNelCqlHmfJ9gDsHbYyzrnmz-ndXyDomMQml2uY08fLTowFEg7PF69H58UdSzYVOuHGESRXx6bwLSiM5OIET6z4T7Zbt0ASxax_r-e4pEkugm3OWjiF14cbiBH7LtJE4HB25OzhyI62v4Nwp-VXZ3QXGgu3swYdBRmwvTqHb7uTe49YagxTtV35Zez_0vs5IFJzg3ffFLuOTVGhJfscZ6p7jZebnc3L73JSfMhj3kC6cyMCw1yz")' }}
+            >
+                <ThreeBackground />
+                <div className="container relative z-10 mx-auto px-4 text-center">
+                    <div className="flex flex-col items-center gap-6 max-w-4xl mx-auto">
+                        <h1 className="text-white text-5xl font-black uppercase tracking-tighter leading-tight sm:text-6xl lg:text-7xl drop-shadow-2xl">
+                            {t('services.hero.title', 'Global Iron & Metal Trade Solutions')}
+                        </h1>
+                        <h2 className="text-white/90 text-lg font-medium leading-relaxed sm:text-xl max-w-2xl drop-shadow-lg">
+                            {t('services.hero.subtitle', 'Your trusted partner for seamless import and export of industrial metals worldwide.')}
+                        </h2>
+                        <button className="flex min-w-[160px] cursor-pointer items-center justify-center rounded-full bg-primary px-8 py-4 text-base font-bold text-white shadow-lg shadow-primary/30 transition-all hover:scale-105 hover:bg-red-700 hover:shadow-xl">
+                            <span className="truncate">{t('services.hero.button', 'Explore Our Services')}</span>
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            {/* Intro */}
-            <section className="py-16 bg-white">
-                <div className="container mx-auto px-4 md:px-10 lg:px-20 text-center">
-                    <motion.p
-                        initial={{ opacity: 0 }}
-                        whileInView={{ opacity: 1 }}
-                        viewport={{ once: true }}
-                        className="mx-auto max-w-3xl text-xl text-gray-600"
-                    >
-                        We provide comprehensive services to support your projects from start to finish, ensuring seamless execution and delivery.
-                    </motion.p>
-                </div>
-            </section>
-
-            {/* Services List */}
-            <section className="pb-20">
-                <div className="container mx-auto px-4 md:px-10 lg:px-20">
-                    <div className="flex flex-col gap-20">
-                        {services.map((service, index) => (
-                            <motion.div
-                                key={service.id}
-                                initial={{ opacity: 0, y: 50 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true, margin: "-100px" }}
-                                transition={{ duration: 0.6 }}
-                                className={`flex flex-col gap-10 lg:items-center ${index % 2 === 1 ? 'lg:flex-row-reverse' : 'lg:flex-row'
-                                    }`}
-                            >
-                                <div className="flex-1">
-                                    <div className="relative overflow-hidden rounded-2xl shadow-xl">
-                                        <div className="absolute inset-0 bg-primary/10 transition-colors hover:bg-transparent" />
-                                        <img
-                                            src={service.image}
-                                            alt={service.title}
-                                            className="h-[300px] w-full object-cover transition-transform duration-700 hover:scale-105 md:h-[400px]"
-                                        />
-                                    </div>
-                                </div>
-                                <div className="flex-1">
-                                    <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-xl bg-primary text-white shadow-lg shadow-primary/30">
-                                        <service.icon className="size-8" />
-                                    </div>
-                                    <h2 className="mb-4 text-3xl font-bold text-gray-900">
-                                        {service.title}
-                                    </h2>
-                                    <p className="mb-6 text-lg text-gray-600">
-                                        {service.desc}
-                                    </p>
-                                    <button className="group flex items-center gap-2 font-semibold text-primary transition-colors hover:text-red-700">
-                                        Learn More
-                                        <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
-                                    </button>
-                                </div>
-                            </motion.div>
-                        ))}
+            {/* Content Container */}
+            <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                
+                {/* Services Grid */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                    <div className="flex flex-col gap-4 rounded-2xl border border-gray-100 bg-white p-8 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+                        <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-2">
+                            <span className="material-symbols-outlined text-3xl">public</span>
+                        </div>
+                        <div className="flex flex-col gap-2">
+                            <h2 className="text-gray-900 text-xl font-bold leading-tight">{t('services.items.network.title', 'Global Supplier Network')}</h2>
+                            <p className="text-gray-500 text-base leading-relaxed">{t('services.items.network.desc', 'Access our extensive and reliable network of international partners.')}</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col gap-4 rounded-2xl border border-gray-100 bg-white p-8 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+                        <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-2">
+                            <span className="material-symbols-outlined text-3xl">verified_user</span>
+                        </div>
+                        <div className="flex flex-col gap-2">
+                            <h2 className="text-gray-900 text-xl font-bold leading-tight">{t('services.items.customs.title', 'Customs Management')}</h2>
+                            <p className="text-gray-500 text-base leading-relaxed">{t('services.items.customs.desc', 'We handle complex customs clearances seamlessly for you.')}</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col gap-4 rounded-2xl border border-gray-100 bg-white p-8 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+                        <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-2">
+                            <span className="material-symbols-outlined text-3xl">local_shipping</span>
+                        </div>
+                        <div className="flex flex-col gap-2">
+                            <h2 className="text-gray-900 text-xl font-bold leading-tight">{t('services.items.logistics.title', 'Logistics Solutions')}</h2>
+                            <p className="text-gray-500 text-base leading-relaxed">{t('services.items.logistics.desc', 'Benefit from our end-to-end transportation and logistics capabilities.')}</p>
+                        </div>
                     </div>
                 </div>
-            </section>
+
+                {/* Export Map Section */}
+                <div className="mb-16">
+                    <div className="text-center mb-10">
+                        <h2 className="text-gray-900 text-3xl font-bold leading-tight tracking-tight mb-4">{t('services.map.title', 'Exporting to Over 20 Countries')}</h2>
+                        <p className="text-gray-500 text-lg max-w-3xl mx-auto">
+                            {t('services.map.desc', 'Our global reach is a testament to our experience and reliability. We have established strong trade routes and partnerships across continents, ensuring timely and efficient delivery to our clients worldwide. Explore our interactive map to see the extent of our export network.')}
+                        </p>
+                    </div>
+                    <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-2xl">
+                        <img className="w-full h-auto object-cover" alt="World map" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMTPqnK9EtLsUKXKBUe2zbzugRBo13ZrD4JwIDxdGJdRoSdomOwfRrdeAfhzOkjbP-uXz4lzhYqiWjjfyP7hQc-6DYXSMopoAYG87h_0-gO3cu3H0drVbF3WkvNPo0db75YeFg6fXC2k8SZWsD_sFXhBcqmRoPrEAhizrJ_BPjJL_vzGr4BMl7T9i0auEbUeKOt7Cc6ZiGWm_mW2mEqzg_u65Onph0gU_TpzZkzDBOrsTKUg36a4yjq23cN8QL7nBuxYLpfjHJPqDH"/>
+                    </div>
+                </div>
+
+                {/* Standards Section */}
+                <div className="mb-16">
+                    <div className="flex border-b border-gray-200 mb-6">
+                        <button 
+                            onClick={() => setActiveTab('quality')}
+                            className={`px-6 py-3 font-bold text-lg transition-colors border-b-2 ${activeTab === 'quality' ? 'text-primary border-primary' : 'text-gray-500 border-transparent hover:text-gray-900'}`}
+                        >
+                            {t('services.tabs.quality', 'International Quality Standards')}
+                        </button>
+                        <button 
+                            onClick={() => setActiveTab('delivery')}
+                            className={`px-6 py-3 font-bold text-lg transition-colors border-b-2 ${activeTab === 'delivery' ? 'text-primary border-primary' : 'text-gray-500 border-transparent hover:text-gray-900'}`}
+                        >
+                            {t('services.tabs.delivery', 'Delivery Models (Incoterms)')}
+                        </button>
+                    </div>
+                    <div className="text-gray-600 text-lg leading-relaxed p-8 bg-gray-50 rounded-2xl border border-gray-200 min-h-[200px]">
+                        <p className="animate-fade-in">
+                            {activeTab === 'quality' 
+                                ? t('services.tabs.qualityContent', 'We are committed to upholding the highest international quality standards in every transaction. Our processes are certified and compliant with key industry benchmarks, including ISO 9001 for Quality Management and ISO 14001 for Environmental Management. This ensures that every product we handle meets rigorous specifications for quality, safety, and sustainability, providing our clients with peace of mind and unparalleled reliability.')
+                                : t('services.tabs.deliveryContent', 'We offer flexible delivery terms including EXW, FOB, CIF, and DAP to suit your logistical needs. Our experienced team ensures smooth handling of all shipping documentation and customs procedures.')
+                            }
+                        </p>
+                    </div>
+                </div>
+
+                {/* CTA Section */}
+                <div className="relative flex flex-col items-center justify-center text-center gap-8 p-12 rounded-3xl overflow-hidden bg-cover bg-center shadow-2xl" style={{ backgroundImage: 'linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDq_86frdrI26XLYX78P09ftSeB_GZAS4VszbCrioWgpzYDdVE_CQole3O5cMYw6W5uMM71CopOcbgdIacd4Jz1Ot_S_A6frY5NmZwDfu8jDGe57hAdY__M9pC3Agtv7MoqymMxPvJ6k7tPpNTIeCyGMki6KtPz8erTW2_onJiFY4Be7HkkeCSe_R9KDC4xkPVjamCKHrAUIBr9Mk_RIaZcl_ApLzLy8MtRZUvUL0RsoDcqicFDsAzEmaleViA1Mq-5BpiwIpChvg_p")' }}>
+                    <div className="relative z-10 max-w-3xl">
+                        <h3 className="text-white text-4xl font-bold mb-4">{t('services.cta.title', 'Ready to Streamline Your Metal Trade?')}</h3>
+                        <p className="text-white/90 text-lg mb-8">{t('services.cta.desc', 'Contact our trade experts today for a personalized consultation and discover how our global solutions can benefit your business.')}</p>
+                        <Link to="/iletisim" className="inline-flex min-w-[180px] cursor-pointer items-center justify-center rounded-full bg-primary px-8 py-4 text-base font-bold text-white shadow-lg shadow-primary/30 transition-all hover:scale-105 hover:bg-red-700 hover:shadow-xl">
+                            <span>{t('services.cta.button', 'Request a Quote')}</span>
+                        </Link>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

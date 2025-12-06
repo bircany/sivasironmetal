@@ -2,17 +2,25 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { clsx } from 'clsx';
+import { useTranslation } from 'react-i18next';
 
 export default function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const location = useLocation();
+    const { t, i18n } = useTranslation();
+
+    const toggleLanguage = () => {
+        const newLang = i18n.language === 'tr' ? 'en' : 'tr';
+        i18n.changeLanguage(newLang);
+    };
 
     const navItems = [
-        { key: 'corporate', path: '/kurumsal', label: 'Corporate' },
-        { key: 'products', path: '/urunlerimiz', label: 'Products' },
-        { key: 'production', path: '/uretim', label: 'Production' },
-        { key: 'services', path: '/hizmetler', label: 'Services' },
-        { key: 'contact', path: '/iletisim', label: 'Contact' },
+        { key: 'corporate', path: '/kurumsal', label: t('nav.corporate') },
+        { key: 'products', path: '/#products', label: t('nav.products') },
+        { key: 'production', path: '/#production', label: t('nav.production') },
+        { key: 'services', path: '/#services', label: t('nav.services') },
+        { key: 'references', path: '/#references', label: t('nav.references') },
+        { key: 'contact', path: '/#contact', label: t('nav.contact') },
     ];
 
     return (
@@ -37,21 +45,43 @@ export default function Header() {
 
                     {/* Desktop Nav */}
                     <nav className="hidden lg:flex items-center gap-8">
-                        {navItems.map((item) => (
-                            <Link
-                                key={item.key}
-                                to={item.path}
-                                className={clsx(
-                                    "text-sm font-medium transition-colors hover:text-primary",
-                                    location.pathname.startsWith(item.path) ? "text-primary" : "text-gray-700"
-                                )}
-                            >
-                                {item.label}
-                            </Link>
-                        ))}
-
-
+                        {navItems.map((item) => {
+                            const isHashLink = item.path.includes('#');
+                            if (isHashLink) {
+                                return (
+                                    <a
+                                        key={item.key}
+                                        href={item.path}
+                                        className="text-sm font-medium text-gray-700 transition-colors hover:text-primary"
+                                    >
+                                        {item.label}
+                                    </a>
+                                );
+                            }
+                            return (
+                                <Link
+                                    key={item.key}
+                                    to={item.path}
+                                    className={clsx(
+                                        "text-sm font-medium transition-colors hover:text-primary",
+                                        location.pathname.startsWith(item.path) ? "text-primary" : "text-gray-700"
+                                    )}
+                                >
+                                    {item.label}
+                                </Link>
+                            );
+                        })}
                     </nav>
+
+                    {/* Desktop Actions */}
+                    <div className="hidden lg:flex items-center gap-4">
+                        <button 
+                            onClick={toggleLanguage}
+                            className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-red-700 transition-colors"
+                        >
+                            <span className="truncate">{i18n.language === 'tr' ? 'TR' : 'EN'}</span>
+                        </button>
+                    </div>
 
                     {/* Mobile Menu Button */}
                     <button
@@ -67,17 +97,40 @@ export default function Header() {
             {isMobileMenuOpen && (
                 <div className="lg:hidden border-t border-gray-100 bg-white px-4 py-4 shadow-lg">
                     <nav className="flex flex-col gap-4">
-                        {navItems.map((item) => (
-                            <Link
-                                key={item.key}
-                                to={item.path}
-                                className="text-base font-medium text-gray-700 hover:text-primary"
-                                onClick={() => setIsMobileMenuOpen(false)}
-                            >
-                                {item.label}
-                            </Link>
-                        ))}
-
+                        {navItems.map((item) => {
+                            const isHashLink = item.path.includes('#');
+                            if (isHashLink) {
+                                return (
+                                    <a
+                                        key={item.key}
+                                        href={item.path}
+                                        className="text-base font-medium text-gray-700 hover:text-primary"
+                                        onClick={() => setIsMobileMenuOpen(false)}
+                                    >
+                                        {item.label}
+                                    </a>
+                                );
+                            }
+                            return (
+                                <Link
+                                    key={item.key}
+                                    to={item.path}
+                                    className="text-base font-medium text-gray-700 hover:text-primary"
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                >
+                                    {item.label}
+                                </Link>
+                            );
+                        })}
+                        <button 
+                            onClick={() => {
+                                toggleLanguage();
+                                setIsMobileMenuOpen(false);
+                            }}
+                            className="flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-red-700 transition-colors"
+                        >
+                            <span className="truncate">{i18n.language === 'tr' ? 'TR' : 'EN'}</span>
+                        </button>
                     </nav>
                 </div>
             )}
