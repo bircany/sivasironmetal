@@ -4,8 +4,8 @@ import ThreeBackground from '../components/ThreeBackground';
 import ProductList from './products/ProductList';
 import Production from './Production';
 import Services from './Services';
-import References from './References';
 import Contact from './Contact';
+import About from './corporate/About';
 import Chatbot from '../components/Chatbot';
 
 export default function Home() {
@@ -97,9 +97,13 @@ export default function Home() {
                 <Services />
             </section>
 
-            {/* References Section */}
-            <section id="references" className="w-full">
-                <References />
+
+
+            {/* About Us Preview Section */}
+            <section id="about" className="w-full py-20 bg-gray-50">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                    <About />
+                </div>
             </section>
 
             {/* Contact Section */}

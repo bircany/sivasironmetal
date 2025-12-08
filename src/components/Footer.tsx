@@ -6,13 +6,13 @@ export default function Footer() {
     const { t } = useTranslation();
 
     const footerLinks = [
-        { key: 'corporate', path: '/kurumsal', label: t('nav.corporate') },
+        { key: 'corporate', path: '/#about', label: t('nav.corporate') },
         { key: 'products', path: '/urunlerimiz', label: t('nav.products') },
         { key: 'production', path: '/uretim', label: t('nav.production') },
         { key: 'services', path: '/hizmetler', label: t('nav.services') },
         { key: 'contact', path: '/iletisim', label: t('nav.contact') },
-        { key: 'privacy', path: '/gizlilik', label: t('nav.privacy') },
-        { key: 'terms', path: '/kullanim-sartlari', label: t('nav.terms') },
+        { key: 'privacy', path: '/privacy-policy', label: t('nav.privacy') },
+        { key: 'terms', path: '/terms-of-service', label: t('nav.terms') },
     ];
 
     return (

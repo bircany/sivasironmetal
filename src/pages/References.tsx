@@ -4,6 +4,15 @@ import { useTranslation } from 'react-i18next';
 export default function References() {
     const { t } = useTranslation();
 
+    // Placeholder logos for fallback
+    const placeholderLogos = [
+        "/images/partners/placeholder-1.png",
+        "/images/partners/placeholder-2.png",
+        "/images/partners/placeholder-3.png",
+        "/images/partners/placeholder-4.png",
+        "/images/partners/placeholder-5.png"
+    ];
+
     return (
         <div className="flex flex-col min-h-screen w-full bg-white overflow-x-hidden">
             <div className="px-4 sm:px-6 lg:px-8 py-10 sm:py-16 lg:py-20">
@@ -37,7 +46,17 @@ export default function References() {
                             ].map((src, index) => (
                                 <div key={index} className="flex flex-col group">
                                     <div className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg bg-gray-100 p-4 flex items-center justify-center transition-all group-hover:scale-105 group-hover:ring-2 ring-primary border border-gray-200 shadow-sm">
-                                        <img alt={`Partner Logo ${index + 1}`} className="h-12 w-auto object-contain" src={src}/>
+                                        <img 
+                                            alt={`Partner Logo ${index + 1}`} 
+                                            className="h-12 w-auto object-contain" 
+                                            src={src}
+                                            onError={(e) => {
+                                                // Use a placeholder logo instead of broken image
+                                                const placeholderIndex = index % placeholderLogos.length;
+                                                (e.target as HTMLImageElement).src = placeholderLogos[placeholderIndex];
+                                                (e.target as HTMLImageElement).onerror = null; // Prevent infinite loop
+                                            }}
+                                        />
                                     </div>
                                 </div>
                             ))}

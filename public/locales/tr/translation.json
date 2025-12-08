@@ -9,6 +9,55 @@
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Koşulları"
   },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "intro": "Sivas Iron Metal olarak gizliliğinize değer veriyor ve kişisel verilerinizi korumayı taahhüt ediyoruz.",
+    "section1": {
+      "title": "1. Topladığımız Bilgiler",
+      "content": "İletişim formlarını doldurduğunuzda, teklif istediğinizde veya bizimle iletişime geçtiğinizde bize doğrudan sağladığınız bilgileri topluyoruz. Buna adınız, e-posta adresiniz, telefon numaranız ve şirket adınız gibi iletişim bilgileri dahildir."
+    },
+    "section2": {
+      "title": "2. Bilgilerinizi Nasıl Kullanıyoruz",
+      "content": "Topladığımız bilgileri şu amaçlarla kullanırız:",
+      "list1": "Siparişlerinizi ve taleplerinizi işlemek ve yönetmek.",
+      "list2": "Size teknik bildirimler, güncellemeler ve destek mesajları göndermek.",
+      "list3": "Ürünler, hizmetler ve etkinlikler hakkında sizinle iletişim kurmak."
+    },
+    "section3": {
+      "title": "3. Veri Güvenliği",
+      "content": "Kişisel verilerinizi yetkisiz erişime, değiştirmeye, ifşaya veya imhaya karşı korumak için uygun teknik ve idari tedbirleri uyguluyoruz."
+    },
+    "section4": {
+      "title": "4. İletişim",
+      "content": "Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen bizimle şu adresten iletişime geçin:"
+    },
+    "lastUpdated": "Son Güncelleme: Aralık 2025"
+  },
+  "terms": {
+    "title": "Kullanım Koşulları",
+    "intro": "Lütfen Sivas Iron Metal tarafından işletilen web sitemizi ve hizmetlerimizi kullanmadan önce bu Kullanım Koşullarını dikkatlice okuyun.",
+    "section1": {
+      "title": "1. Şartların Kabulü",
+      "content": "Bu web sitesinin belirli bölümlerine erişerek veya hizmetlerimizi kullanarak, bu Şartlara bağlı kalmayı kabul edersiniz. Şartların herhangi bir kısmını kabul etmiyorsanız, hizmete erişemezsiniz."
+    },
+    "section2": {
+      "title": "2. Ürünler ve Hizmetler",
+      "content": "Tüm ürün açıklamaları veya ürün fiyatlandırmaları, tamamen kendi takdirimize bağlı olarak, herhangi bir zamanda bildirimde bulunmaksızın değiştirilebilir. Herhangi bir ürünü herhangi bir zamanda durdurma hakkımızı saklı tutarız."
+    },
+    "section3": {
+      "title": "3. Fikri Mülkiyet",
+      "content": "Hizmet ve orijinal içeriği, özellikleri ve işlevselliği, Sivas Iron Metal ve lisans verenlerinin münhasır mülkiyeti olmaya devam edecektir."
+    },
+    "section4": {
+      "title": "4. Sorumluluğun Sınırlandırılması",
+      "content": "Sivas Iron Metal, yöneticileri, çalışanları, ortakları, acenteleri, tedarikçileri veya iştirakleri, hiçbir durumda dolaylı, arızi, özel, sonuç olarak ortaya çıkan veya cezai zararlardan sorumlu tutulamaz."
+    },
+    "section5": {
+      "title": "5. Geçerli Hukuk",
+      "content": "Bu Şartlar, kanunlar ihtilafı hükümlerine bakılmaksızın Türkiye yasalarına göre yönetilecek ve yorumlanacaktır."
+    },
+    "lastUpdated": "Son Güncelleme: Aralık 2025"
+  },
   "footer": {
     "rightsReserved": "Tüm hakları saklıdır."
   },
@@ -22,10 +71,16 @@
     "hero": {
       "title": "Sivas Iron Metal – Güçlü Çelik, Güvenilir Tedarik",
       "subtitle": "Çelik sac, boru, profil, konstrüksiyon ürünleri ve endüstriyel çözümler",
+      "cta": "Ürünlerimiz",
+      "contact": "İletişim",
       "catalogButton": "Ürün Kataloğu",
       "quoteButton": "Teklif Alın"
     },
     "stats": {
+      "years": "Yıllık Deneyim",
+      "countries": "İhracat Yapılan Ülke",
+      "projects": "Tamamlanan Proje",
+      "capacity": "Yıllık Kapasite",
       "experience": {
         "label": "Tecrübe",
         "value": "30+ Yıllık"
@@ -72,8 +127,25 @@
   },
   "services": {
     "title": "İthalat & İhracat Hizmetleri",
+    "hero": {
+      "badge": "Küresel Lojistik Ortağı",
+      "title": "KÜRESEL DEMİR & METAL TİCARET ÇÖZÜMLERİ",
+      "subtitle": "Dünya çapında endüstriyel metallerin sorunsuz ithalatı ve ihracatı için güvenilir ortağınız.",
+      "button": "Hizmetlerimizi Keşfedin"
+    },
+    "marquee": {
+      "title": "SEKTÖR LİDERLERİ TARAFINDAN GÜVENİLMEKTEDİR"
+    },
     "intro": "Global ticaret ağımız ve lojistik çözümlerimizle işinize değer katıyoruz.",
     "items": {
+      "network": {
+        "title": "Global Tedarikçi Ağı",
+        "desc": "Kapsamlı ve güvenilir uluslararası ortak ağımıza erişin."
+      },
+      "customs": {
+        "title": "Gümrük Yönetimi",
+        "desc": "Karmaşık gümrük işlemlerini sizin için sorunsuz bir şekilde hallediyoruz."
+      },
       "logistics": {
         "title": "Lojistik Çözümleri",
         "desc": "Dünyanın her yerine hızlı ve güvenli sevkiyat."
@@ -84,7 +156,7 @@
       },
       "technical": {
         "title": "Teknik Destek",
-        "desc": "Üretim süreçlerinizde uzman çözüm ortaklığı."
+        "desc": "Malzeme seçimi ve kullanımı konusunda uzman desteği."
       },
       "support": {
         "title": "Müşteri Hizmetleri",
@@ -97,9 +169,13 @@
     },
     "tabs": {
       "quality": "Uluslararası Kalite Standartları",
-      "delivery": "Teslimat Modelleri (Incoterms)",
+      "delivery": "Teslimat Modelleri",
       "qualityContent": "Her işlemde en yüksek uluslararası kalite standartlarını korumayı taahhüt ediyoruz. Süreçlerimiz, Kalite Yönetimi için ISO 9001 ve Çevre Yönetimi için ISO 14001 dahil olmak üzere temel endüstri kriterlerine uygun ve sertifikalıdır. Bu, işlediğimiz her ürünün kalite, güvenlik ve sürdürülebilirlik açısından titiz spesifikasyonları karşılamasını sağlayarak müşterilerimize gönül rahatlığı ve benzersiz güvenilirlik sunar.",
       "deliveryContent": "Lojistik ihtiyaçlarınıza uygun EXW, FOB, CIF ve DAP dahil olmak üzere esnek teslimat koşulları sunuyoruz. Deneyimli ekibimiz, tüm nakliye belgelerinin ve gümrük işlemlerinin sorunsuz bir şekilde yürütülmesini sağlar."
+    },
+    "standards": {
+      "title": "Standartlarımız",
+      "subtitle": "Her Sevkiyatta Mükemmellik"
     },
     "cta": {
       "title": "Metal Ticaretinizi Kolaylaştırmaya Hazır mısınız?",
@@ -110,6 +186,12 @@
   "production": {
     "title": "Üretim Tesisleri",
     "intro": "Modern teknoloji ile yüksek kapasiteli üretim.",
+    "hero": {
+      "badge": "ENDÜSTRİYEL MÜKEMMELLİYET",
+      "title": "MAKİNE PARKI & ÜRETİM HATLARI",
+      "subtitle": "Endüstri standardını belirleyen son teknoloji ve gelişmiş üretim yeteneklerimizi keşfedin.",
+      "capabilities": "Yetkinliklerimiz"
+    },
     "nav": {
       "slitting": "Dilme Hattı",
       "cutToLength": "Boy Kesme Hattı",
@@ -117,6 +199,7 @@
       "pipe": "Boru Üretim Hattı",
       "cnc": "CNC & Plazma Kesim"
     },
+    "process": "SÜREÇ {{count}}",
     "lines": {
       "slitting": {
         "title": "Dilme Hattı",
@@ -141,19 +224,19 @@
     },
     "sections": {
       "slitting": {
-        "title": "Dilme Hattı (Slitting Line)",
+        "title": "Dilme Hattı",
         "desc": "Yüksek hassasiyetli dilme hattımız, geniş bir çelik rulo yelpazesini işlemek ve bunları olağanüstü doğrulukla daha dar şeritlere dönüştürmek için tasarlanmıştır. Bu kritik ilk adım, sonraki tüm üretim süreçlerinin en yüksek kalitede ve tam spesifikasyonlara sahip malzemelerle başlamasını sağlar."
       },
       "cutToLength": {
-        "title": "Boy Kesme Hattı (Cut-to-Length Line)",
+        "title": "Boy Kesme Hattı",
         "desc": "Boy kesme hattı, çelik ruloları hassas uzunluklarda düz, dikdörtgen levhalara dönüştürür. Gelişmiş düzleştirme ve makaslama teknolojimiz, imalat veya müşterilerimiz tarafından doğrudan kullanım için hazır, temiz, çapaksız kenarlara sahip mükemmel düzlükte levhalar garanti eder."
       },
       "profile": {
-        "title": "Profil Üretim Hattı (Profile Production Line)",
+        "title": "Profil Üretim Hattı",
         "desc": "Profil üretim hattımız, çok çeşitli standart ve özel profiller oluşturmak için gelişmiş rulo şekillendirme teknolojisini kullanır. Bu sürekli süreç, inşaat, otomotiv ve diğer endüstrilerdeki uygulamalar için boyutsal tutarlılık ve yüksek yapısal bütünlük sağlar."
       },
       "pipe": {
-        "title": "Boru Üretim Hattı (Pipe Production Line)",
+        "title": "Boru Üretim Hattı",
         "desc": "Boru üretim hattımız, yüksek kaliteli sanayi ve inşaat boruları üretmek için donatılmıştır. Hassas kaynak ve şekillendirme teknikleri kullanarak, mukavemet, dayanıklılık ve boyutsal doğruluk açısından katı uluslararası standartları karşılayan borular üretiyoruz."
       },
       "cnc": {
@@ -186,10 +269,43 @@
       "technology": "Kesim Teknolojisi",
       "maxThickness": "Maks. Levha Kalınlığı",
       "area": "Çalışma Alanı"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "intro": "Sivas Iron Metal, küresel çelik ve demir ithalat/ihracat sektöründe önde gelen bir lider olarak durmaktadır. Onlarca yıllık deneyim ve kaliteye olan sarsılmaz bağlılığımızla, dünya çapında birinci sınıf metal ürünler arayan işletmeler için güvenilir bir ortak olarak kendimizi kanıtladık.",
+    "desc1": "Şirketimiz, çeşitli endüstriyel ihtiyaçları karşılamak için yüksek kaliteli çelik ve demir malzemelerin tedariki, işlenmesi ve dağıtımında uzmanlaşmıştır. En yüksek kalite kontrol standartlarını korumaktan gurur duyuyoruz ve tesislerimizden çıkan her ürünün uluslararası spesifikasyonları karşılamasını veya aşmasını sağlıyoruz.",
+    "stats": {
+      "experience": "Yıllık Deneyim",
+      "countries": "İhracat Yapılan Ülke",
+      "projects": "Tamamlanan Proje",
+      "team": "Ekip Üyesi"
     },
-    "hero": {
-      "title": "MAKİNE PARKI & ÜRETİM HATLARI",
-      "subtitle": "Endüstri standardını belirleyen son teknoloji ve gelişmiş üretim yeteneklerimizi keşfedin."
+    "values": {
+      "title": "Temel Değerler & Yetenekler",
+      "subtitle": "Rekabetçi metal endüstrisinde bizi farklı kılan özellikler.",
+      "innovation": {
+        "title": "İnovasyon",
+        "desc": "Verimliliği artırmak için sürekli olarak yeni teknolojiler benimsiyoruz."
+      },
+      "quality": {
+        "title": "Kalite Güvencesi",
+        "desc": "Her sevkiyat için ISO 9001 & 14001 sertifikalı süreçler."
+      },
+      "reach": {
+        "title": "Küresel Erişim",
+        "desc": "5 kıtayı kapsayan güçlü lojistik ağı."
+      },
+      "focus": {
+        "title": "Müşteri Odaklılık",
+        "desc": "Sizin için 7/24 hizmet veren özel destek ekibi."
+      }
+    },
+    "certified": {
+      "title": "Sertifikalı Mükemmellik",
+      "desc": "Her anlaşmada güvenilirliği sağlayan ISO 9001:2015 dahil uluslararası kalite standartlarına kesinlikle uyuyoruz.",
+      "viewCerts": "Sertifikaları Görüntüle",
+      "contact": "İletişime Geçin"
     }
   },
   "products": {
@@ -256,6 +372,33 @@
     }
   },
   "corporate": {
+    "about": {
+      "title": "Hakkımızda",
+      "p1": "Sivas Iron Metal, küresel çelik ve demir ithalat/ihracat sektöründe önde gelen bir lider olarak durmaktadır. Onlarca yıllık deneyim ve kaliteye olan sarsılmaz bağlılığımızla, dünya çapında birinci sınıf metal ürünler arayan işletmeler için güvenilir bir ortak olarak kendimizi kanıtladık.",
+      "p2": "Şirketimiz, çeşitli endüstriyel ihtiyaçları karşılamak için yüksek kaliteli çelik ve demir malzemelerin tedariki, işlenmesi ve dağıtımında uzmanlaşmıştır. En yüksek kalite kontrol standartlarını korumaktan gurur duyuyoruz ve tesislerimizden çıkan her ürünün uluslararası spesifikasyonları karşılamasını veya aşmasını sağlıyoruz.",
+      "values_title": "Temel Değerler & Yetenekler",
+      "values_subtitle": "Rekabetçi metal endüstrisinde bizi farklı kılan özellikler.",
+      "cert_title": "Sertifikalı Mükemmellik",
+      "cert_desc": "Her anlaşmada güvenilirliği sağlayan ISO 9001:2015 dahil uluslararası kalite standartlarına kesinlikle uyuyoruz.",
+      "view_certs": "Sertifikaları Görüntüle",
+      "contact_us": "İletişime Geçin"
+    },
+    "stats": {
+      "experience": "Yıllık Deneyim",
+      "export": "İhracat Yapılan Ülke",
+      "projects": "Tamamlanan Proje",
+      "team": "Ekip Üyesi"
+    },
+    "values": {
+      "innovation": "İnovasyon",
+      "innovation_desc": "Verimliliği artırmak için sürekli olarak yeni teknolojiler benimsiyoruz.",
+      "quality": "Kalite Güvencesi",
+      "quality_desc": "Her sevkiyat için ISO 9001 & 14001 sertifikalı süreçler.",
+      "global": "Küresel Erişim",
+      "global_desc": "5 kıtayı kapsayan güçlü lojistik ağı.",
+      "customer": "Müşteri Odaklılık",
+      "customer_desc": "Sizin için 7/24 hizmet veren özel destek ekibi."
+    },
     "certificates": {
       "title": "Kalite Belgeleri & Sertifikalar",
       "intro": "Uluslararası standartlara uygun üretim ve yönetim kalitemizin tescili.",
@@ -317,11 +460,16 @@
     },
     "form": {
       "title": "Bize Mesaj Gönderin",
+      "subtitle": "Aşağıdaki formu doldurun, en kısa sürede size geri dönelim.",
       "name": "Ad Soyad",
       "email": "E-posta Adresi",
       "subject": "Konu",
       "message": "Mesaj",
-      "submit": "Mesaj Gönder"
+      "submit": "Mesaj Gönder",
+      "namePlaceholder": "Adınız Soyadınız",
+      "emailPlaceholder": "ornek@email.com",
+      "subjectPlaceholder": "Size nasıl yardımcı olabiliriz?",
+      "messagePlaceholder": "Mesajınız..."
     }
   },
   "chatbot": {
@@ -337,7 +485,8 @@
       "contact": "Bize +90 346 222 22 22 numaralı telefondan veya info@sivasironmetal.com adresinden ulaşabilirsiniz. Ofisimiz Sivas Organize Sanayi Bölgesi'ndedir.",
       "greeting": "Merhaba! Size nasıl yardımcı olabilirim?",
       "default": "Bu konuda size yardımcı olabilmek için lütfen müşteri temsilcimizle iletişime geçin veya sorunuzu daha detaylı yazın.",
-      "productInquiry": "{{product}} hakkında detaylı bilgi ve fiyat teklifi almak istiyorum."
+      "productInquiry": "{{product}} hakkında detaylı bilgi ve fiyat teklifi almak istiyorum.",
+      "export": "20'den fazla ülkeye ihracat yapıyoruz. Detaylı bilgi için Hizmetler sayfamızdaki haritayı inceleyebilirsiniz."
     }
   }
 }

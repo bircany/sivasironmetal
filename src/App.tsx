@@ -17,6 +17,8 @@ import { PieChart, TrendingUp, BarChart3, FileText, Leaf, Award, Users } from 'l
 import Production from './pages/Production';
 import Services from './pages/Services';
 import References from './pages/References';
+import PrivacyPolicy from './pages/legal/PrivacyPolicy';
+import TermsOfService from './pages/legal/TermsOfService';
 
 function App() {
   return (
@@ -25,13 +27,14 @@ function App() {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
 
-          <Route path="kurumsal" element={<CorporateLayout />}>
+{/* Corporate pages embedded in Home page - Route removed as per request */}
+          {/* <Route path="kurumsal" element={<CorporateLayout />}>
             <Route index element={<Navigate to="hakkimizda" replace />} />
             <Route path="hakkimizda" element={<About />} />
             <Route path="vizyon-misyon" element={<VisionMission />} />
             <Route path="kalite-politikamiz" element={<QualityCertificates />} />
             <Route path="tarihce" element={<History />} />
-          </Route>
+          </Route> */}
 
           <Route path="urunlerimiz" element={<ProductsLayout />}>
             <Route index element={<ProductList />} />
@@ -129,6 +132,8 @@ function App() {
           <Route path="uretim" element={<Production />} />
           <Route path="hizmetler" element={<Services />} />
           <Route path="iletisim" element={<Contact />} />
+          <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="terms-of-service" element={<TermsOfService />} />
         </Route>
       </Routes>
     </BrowserRouter >

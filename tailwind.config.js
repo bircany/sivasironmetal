@@ -14,7 +14,9 @@ export default {
         "text-secondary": "#6b7280",
       },
       fontFamily: {
-        "display": ["Manrope", "sans-serif"]
+        "display": ["'Chakra Petch'", "sans-serif"],
+        "body": ["'Inter'", "sans-serif"],
+        "sans": ["'Inter'", "sans-serif"],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

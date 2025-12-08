@@ -9,6 +9,55 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
   },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "At Sivas Iron Metal, we value your privacy and are committed to protecting your personal data.",
+    "section1": {
+      "title": "1. Information We Collect",
+      "content": "We collect information that you provide directly to us when you fill out contact forms, request quotes, or communicate with us. This includes contact details such as your name, email address, phone number, and company name."
+    },
+    "section2": {
+      "title": "2. How We Use Your Information",
+      "content": "We use the information we collect to:",
+      "list1": "Process and manage your orders and inquiries.",
+      "list2": "Send you technical notices, updates, and support messages.",
+      "list3": "Communicate with you about products, services, and events."
+    },
+    "section3": {
+      "title": "3. Data Security",
+      "content": "We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction."
+    },
+    "section4": {
+      "title": "4. Contact Us",
+      "content": "If you have any questions about this Privacy Policy, please contact us at:"
+    },
+    "lastUpdated": "Last Updated: December 2025"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "intro": "Please read these Terms of Service carefully before using our website and services operated by Sivas Iron Metal.",
+    "section1": {
+      "title": "1. Acceptance of Terms",
+      "content": "By accessing specific parts of this website or using our services, you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the service."
+    },
+    "section2": {
+      "title": "2. Products and Services",
+      "content": "All descriptions of products or product pricing are subject to change at any time without notice, at our sole discretion. We reserve the right to discontinue any product at any time."
+    },
+    "section3": {
+      "title": "3. Intellectual Property",
+      "content": "The Service and its original content, features, and functionality are and will remain the exclusive property of Sivas Iron Metal and its licensors."
+    },
+    "section4": {
+      "title": "4. Limitation of Liability",
+      "content": "In no event shall Sivas Iron Metal, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages."
+    },
+    "section5": {
+      "title": "5. Governing Law",
+      "content": "These Terms shall be governed and construed in accordance with the laws of Turkey, without regard to its conflict of law provisions."
+    },
+    "lastUpdated": "Last Updated: December 2025"
+  },
   "footer": {
     "rightsReserved": "All rights reserved."
   },
@@ -72,8 +121,25 @@
   },
   "services": {
     "title": "Import & Export Services",
+    "hero": {
+      "badge": "Global Logistics Partner",
+      "title": "Global Iron & Metal Trade Solutions",
+      "subtitle": "Your trusted partner for seamless import and export of industrial metals worldwide.",
+      "button": "Explore Our Services"
+    },
+    "marquee": {
+      "title": "Trusted by Industry Leaders"
+    },
     "intro": "We add value to your business with our global trade network and logistics solutions.",
     "items": {
+      "network": {
+        "title": "Global Supplier Network",
+        "desc": "Access our extensive and reliable network of international partners."
+      },
+      "customs": {
+        "title": "Customs Management",
+        "desc": "We handle complex customs clearances seamlessly for you."
+      },
       "logistics": {
         "title": "Logistics Solutions",
         "desc": "Fast and safe delivery to all over the world."
@@ -90,6 +156,10 @@
         "title": "Customer Service",
         "desc": "24/7 support for all your questions and needs."
       }
+    },
+    "standards": {
+      "title": "OUR STANDARDS",
+      "subtitle": "Excellence in Every Shipment"
     },
     "map": {
       "title": "Exporting to Over 20 Countries",
@@ -110,6 +180,13 @@
   "production": {
     "title": "Production Facilities",
     "intro": "High capacity production with modern technology.",
+    "hero": {
+      "badge": "INDUSTRIAL EXCELLENCE",
+      "title": "MACHINERY PARK & PRODUCTION LINES",
+      "subtitle": "Explore our state-of-the-art technology and advanced production capabilities that set the industry standard.",
+      "capabilities": "OUR CAPABILITIES"
+    },
+    "process": "PROCESS {{count}}",
     "nav": {
       "slitting": "Slitting Line",
       "cutToLength": "Cut to Length Line",
@@ -191,10 +268,6 @@
       "technology": "Cutting Technology",
       "maxThickness": "Max Plate Thickness",
       "area": "Working Area"
-    },
-    "hero": {
-      "title": "MACHINERY PARK & PRODUCTION LINES",
-      "subtitle": "Explore our state-of-the-art technology and advanced production capabilities that set the industry standard."
     }
   },
   "products": {

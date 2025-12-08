@@ -121,19 +121,26 @@ export default function Chatbot() {
     const generateAIResponse = (input: string): string => {
         const lowerInput = input.toLowerCase();
         
-        if (lowerInput.includes('fiyat') || lowerInput.includes('teklif') || lowerInput.includes('price') || lowerInput.includes('quote')) {
-            return t('chatbot.ai.price', 'Fiyat teklifi almak için lütfen WhatsApp hattımızdan veya iletişim formundan bize ulaşın. Satış ekibimiz size en kısa sürede dönüş yapacaktır.');
+        // Exact matches for quick questions (using keys or partial text matching)
+        if (input === t('chatbot.q1') || lowerInput.includes('katalog') || lowerInput.includes('catalog')) {
+             return t('chatbot.ai.products', 'Geniş ürün yelpazemizi "Ürünlerimiz" sayfasından inceleyebilirsiniz. Sac, boru, profil ve daha fazlası için kataloğumuza göz atın.');
         }
-        if (lowerInput.includes('ürün') || lowerInput.includes('katalog') || lowerInput.includes('product') || lowerInput.includes('catalog')) {
-            return t('chatbot.ai.products', 'Geniş ürün yelpazemizi "Ürünlerimiz" sayfasından inceleyebilirsiniz. Sac, boru, profil ve daha fazlası için kataloğumuza göz atın.');
+        if (input === t('chatbot.q2') || lowerInput.includes('fiyat') || lowerInput.includes('teklif') || lowerInput.includes('price') || lowerInput.includes('quote')) {
+             return t('chatbot.ai.price', 'Fiyat teklifi almak için lütfen WhatsApp hattımızdan veya iletişim formundan bize ulaşın. Satış ekibimiz size en kısa sürede dönüş yapacaktır.');
         }
-        if (lowerInput.includes('iletişim') || lowerInput.includes('adres') || lowerInput.includes('telefon') || lowerInput.includes('contact')) {
-            return t('chatbot.ai.contact', 'Bize +90 346 222 22 22 numaralı telefondan veya info@sivasironmetal.com adresinden ulaşabilirsiniz. Ofisimiz Sivas Organize Sanayi Bölgesi\'ndedir.');
+        if (input === t('chatbot.q3') || lowerInput.includes('iletişim') || lowerInput.includes('adres') || lowerInput.includes('telefon') || lowerInput.includes('contact')) {
+             return t('chatbot.ai.contact', 'Bize +90 346 222 22 22 numaralı telefondan veya info@sivasironmetal.com adresinden ulaşabilirsiniz. Ofisimiz Sivas Organize Sanayi Bölgesi\'ndedir.');
         }
+        if (input === t('chatbot.q4') || lowerInput.includes('ülke') || lowerInput.includes('ihracat') || lowerInput.includes('export') || lowerInput.includes('country')) {
+             return t('services.map.desc', '20\'den fazla ülkeye ihracat yapıyoruz. Küresel ağımız hakkında detaylı bilgi için Referanslar bölümünü inceleyebilirsiniz.');
+        }
+
+        // Generic greetings
         if (lowerInput.includes('merhaba') || lowerInput.includes('selam') || lowerInput.includes('hello') || lowerInput.includes('hi')) {
             return t('chatbot.ai.greeting', 'Merhaba! Size nasıl yardımcı olabilirim?');
         }
         
+        // Final fallback
         return t('chatbot.ai.default', 'Bu konuda size yardımcı olabilmek için lütfen müşteri temsilcimizle iletişime geçin veya sorunuzu daha detaylı yazın.');
     };
 
@@ -218,11 +225,25 @@ export default function Chatbot() {
                                         <button
                                             key={index}
                                             onClick={() => {
-                                                if (q.link.startsWith('#')) {
-                                                    window.location.href = q.link;
-                                                } else {
-                                                    window.open(q.link, '_blank');
-                                                }
+                                                const userMessage: Message = {
+                                                    id: Date.now(),
+                                                    text: q.text,
+                                                    sender: 'user',
+                                                    timestamp: new Date()
+                                                };
+                                                setMessages(prev => [...prev, userMessage]);
+                                                setIsTyping(true);
+
+                                                setTimeout(() => {
+                                                    const aiResponse: Message = {
+                                                        id: Date.now() + 1,
+                                                        text: generateAIResponse(q.text),
+                                                        sender: 'ai',
+                                                        timestamp: new Date()
+                                                    };
+                                                    setMessages(prev => [...prev, aiResponse]);
+                                                    setIsTyping(false);
+                                                }, 1000);
                                             }}
                                             className="text-left text-xs font-medium text-primary bg-white border border-primary/10 hover:bg-primary hover:text-white p-3 rounded-xl transition-all shadow-sm hover:shadow-md"
                                         >

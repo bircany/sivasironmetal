@@ -105,22 +105,22 @@ export default function Contact() {
                                 <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
                                     <div className="flex flex-col gap-2">
                                         <label className="text-sm font-bold text-gray-700 uppercase tracking-wide">{t('contact.form.name', 'Full Name')}</label>
-                                        <input type="text" className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-4 focus:border-primary focus:bg-white focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all" placeholder="John Doe" />
+                                        <input type="text" className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-4 focus:border-primary focus:bg-white focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all" placeholder={t('contact.form.namePlaceholder', 'John Doe')} />
                                     </div>
                                     <div className="flex flex-col gap-2">
                                         <label className="text-sm font-bold text-gray-700 uppercase tracking-wide">{t('contact.form.email', 'Email Address')}</label>
-                                        <input type="email" className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-4 focus:border-primary focus:bg-white focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all" placeholder="john@example.com" />
+                                        <input type="email" className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-4 focus:border-primary focus:bg-white focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all" placeholder={t('contact.form.emailPlaceholder', 'john@example.com')} />
                                     </div>
                                 </div>
 
                                 <div className="flex flex-col gap-2">
                                     <label className="text-sm font-bold text-gray-700 uppercase tracking-wide">{t('contact.form.subject', 'Subject')}</label>
-                                    <input type="text" className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-4 focus:border-primary focus:bg-white focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all" placeholder="How can we help you?" />
+                                    <input type="text" className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-4 focus:border-primary focus:bg-white focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all" placeholder={t('contact.form.subjectPlaceholder', 'How can we help you?')} />
                                 </div>
 
                                 <div className="flex flex-col gap-2">
                                     <label className="text-sm font-bold text-gray-700 uppercase tracking-wide">{t('contact.form.message', 'Message')}</label>
-                                    <textarea rows={6} className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-4 focus:border-primary focus:bg-white focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all resize-none" placeholder="Your message..."></textarea>
+                                    <textarea rows={6} className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-4 focus:border-primary focus:bg-white focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all resize-none" placeholder={t('contact.form.messagePlaceholder', 'Your message...')}></textarea>
                                 </div>
 
                                 <motion.button

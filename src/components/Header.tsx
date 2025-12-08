@@ -15,21 +15,20 @@ export default function Header() {
     };
 
     const navItems = [
-        { key: 'corporate', path: '/kurumsal', label: t('nav.corporate') },
-        { key: 'products', path: '/#products', label: t('nav.products') },
-        { key: 'production', path: '/#production', label: t('nav.production') },
-        { key: 'services', path: '/#services', label: t('nav.services') },
-        { key: 'references', path: '/#references', label: t('nav.references') },
-        { key: 'contact', path: '/#contact', label: t('nav.contact') },
+        { key: 'corporate', path: '/#about', label: t('nav.corporate', 'Kurumsal') },
+        { key: 'products', path: '/#products', label: t('nav.products', 'Ürünlerimiz') },
+        { key: 'production', path: '/#production', label: t('nav.production', 'Üretim') },
+        { key: 'services', path: '/#services', label: t('nav.services', 'Hizmetler') },
+        { key: 'contact', path: '/#contact', label: t('nav.contact', 'İletişim') },
     ];
 
     return (
-        <header className="sticky top-0 z-50 w-full border-b border-gray-200/60 bg-white/80 backdrop-blur-sm">
-            <div className="container mx-auto px-4 md:px-10 lg:px-20 xl:px-40">
-                <div className="flex h-16 items-center justify-between">
+        <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/90 backdrop-blur-md transition-all duration-300 shadow-sm">
+            <div className="container mx-auto px-4 md:px-8 lg:px-12 xl:px-20">
+                <div className="flex h-20 items-center justify-between">
                     {/* Logo */}
-                    <Link to="/" className="flex items-center gap-4 text-gray-900">
-                        <div className="size-8 text-primary">
+                    <Link to="/" className="group flex items-center gap-3">
+                        <div className="size-10 text-primary transition-transform duration-300 group-hover:scale-110">
                             <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0_6_543)">
                                     <path d="M42.1739 20.1739L27.8261 5.82609C29.1366 7.13663 28.3989 10.1876 26.2002 13.7654C24.8538 15.9564 22.9595 18.3449 20.6522 20.6522C18.3449 22.9595 15.9564 24.8538 13.7654 26.2002C10.1876 28.3989 7.13663 29.1366 5.82609 27.8261L20.1739 42.1739C21.4845 43.4845 24.5355 42.7467 28.1133 40.548C30.3042 39.2016 32.6927 37.3073 35 35C37.3073 32.6927 39.2016 30.3042 40.548 28.1133C42.7467 24.5355 43.4845 21.4845 42.1739 20.1739Z" fill="currentColor"></path>
@@ -40,21 +39,33 @@ export default function Header() {
                                 </defs>
                             </svg>
                         </div>
-                        <span className="text-lg font-bold leading-tight tracking-tight">Sivas Iron Metal</span>
+                        <span className="text-xl font-extrabold leading-tight tracking-tight text-gray-900 transition-colors duration-300 group-hover:text-primary">Sivas Iron Metal</span>
                     </Link>
 
                     {/* Desktop Nav */}
-                    <nav className="hidden lg:flex items-center gap-8">
+                    <nav className="hidden lg:flex items-center gap-10">
                         {navItems.map((item) => {
                             const isHashLink = item.path.includes('#');
+                            const isActive = !isHashLink && location.pathname.startsWith(item.path);
+                            
+                            const content = (
+                                <>
+                                    <span className="relative z-10">{item.label}</span>
+                                    <span className={clsx(
+                                        "absolute inset-x-0 -bottom-1 h-0.5 bg-primary transform origin-left transition-transform duration-300 ease-out",
+                                        isActive ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
+                                    )} />
+                                </>
+                            );
+
                             if (isHashLink) {
                                 return (
                                     <a
                                         key={item.key}
                                         href={item.path}
-                                        className="text-sm font-medium text-gray-700 transition-colors hover:text-primary"
+                                        className="group relative py-2 text-sm font-bold uppercase tracking-wide text-gray-700 hover:text-primary transition-colors duration-300"
                                     >
-                                        {item.label}
+                                        {content}
                                     </a>
                                 );
                             }
@@ -63,11 +74,11 @@ export default function Header() {
                                     key={item.key}
                                     to={item.path}
                                     className={clsx(
-                                        "text-sm font-medium transition-colors hover:text-primary",
-                                        location.pathname.startsWith(item.path) ? "text-primary" : "text-gray-700"
+                                        "group relative py-2 text-sm font-bold uppercase tracking-wide transition-colors duration-300",
+                                        isActive ? "text-primary" : "text-gray-700 hover:text-primary"
                                     )}
                                 >
-                                    {item.label}
+                                    {content}
                                 </Link>
                             );
                         })}
@@ -77,15 +88,16 @@ export default function Header() {
                     <div className="hidden lg:flex items-center gap-4">
                         <button 
                             onClick={toggleLanguage}
-                            className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-red-700 transition-colors"
+                            className="group relative flex h-9 w-16 items-center justify-center overflow-hidden rounded-full border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:border-primary/50 hover:shadow-md active:scale-95"
                         >
-                            <span className="truncate">{i18n.language === 'tr' ? 'TR' : 'EN'}</span>
+                             <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                            <span className="relative text-xs font-bold text-gray-700 group-hover:text-primary">{i18n.language === 'tr' ? 'TR' : 'EN'}</span>
                         </button>
                     </div>
 
                     {/* Mobile Menu Button */}
                     <button
-                        className="lg:hidden text-gray-700"
+                        className="lg:hidden p-2 text-gray-700 transition-colors hover:text-primary"
                         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                     >
                         {isMobileMenuOpen ? <X className="size-6" /> : <Menu className="size-6" />}
@@ -94,46 +106,49 @@ export default function Header() {
             </div>
 
             {/* Mobile Nav */}
-            {isMobileMenuOpen && (
-                <div className="lg:hidden border-t border-gray-100 bg-white px-4 py-4 shadow-lg">
-                    <nav className="flex flex-col gap-4">
-                        {navItems.map((item) => {
-                            const isHashLink = item.path.includes('#');
-                            if (isHashLink) {
-                                return (
-                                    <a
-                                        key={item.key}
-                                        href={item.path}
-                                        className="text-base font-medium text-gray-700 hover:text-primary"
-                                        onClick={() => setIsMobileMenuOpen(false)}
-                                    >
-                                        {item.label}
-                                    </a>
-                                );
-                            }
+            <div className={clsx(
+                "lg:hidden overflow-hidden transition-all duration-300 ease-in-out bg-white border-t border-gray-100",
+                isMobileMenuOpen ? "max-h-[400px] opacity-100 shadow-lg" : "max-h-0 opacity-0"
+            )}>
+                <nav className="flex flex-col gap-2 p-4">
+                    {navItems.map((item) => {
+                        const isHashLink = item.path.includes('#');
+                        if (isHashLink) {
                             return (
-                                <Link
+                                <a
                                     key={item.key}
-                                    to={item.path}
-                                    className="text-base font-medium text-gray-700 hover:text-primary"
+                                    href={item.path}
+                                    className="block p-2 text-base font-bold text-gray-700 hover:bg-gray-50 hover:text-primary rounded-lg transition-colors"
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >
                                     {item.label}
-                                </Link>
+                                </a>
                             );
-                        })}
+                        }
+                        return (
+                            <Link
+                                key={item.key}
+                                to={item.path}
+                                className="block p-2 text-base font-bold text-gray-700 hover:bg-gray-50 hover:text-primary rounded-lg transition-colors"
+                                onClick={() => setIsMobileMenuOpen(false)}
+                            >
+                                {item.label}
+                            </Link>
+                        );
+                    })}
+                    <div className="mt-2 pt-2 border-t border-gray-100">
                         <button 
                             onClick={() => {
                                 toggleLanguage();
                                 setIsMobileMenuOpen(false);
                             }}
-                            className="flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-red-700 transition-colors"
+                            className="flex w-full items-center justify-center rounded-lg bg-gray-50 p-3 text-sm font-bold text-gray-900 transition-colors hover:bg-gray-100"
                         >
-                            <span className="truncate">{i18n.language === 'tr' ? 'TR' : 'EN'}</span>
+                            <span>{i18n.language === 'tr' ? 'Türkçe' : 'English'}</span>
                         </button>
-                    </nav>
-                </div>
-            )}
+                    </div>
+                </nav>
+            </div>
         </header>
     );
 }
