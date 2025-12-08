@@ -1,15 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
-import CorporateLayout from './layouts/CorporateLayout';
 import ProductsLayout from './layouts/ProductsLayout';
 import Home from './pages/Home';
 import ProductList from './pages/products/ProductList';
 import ProductDetail from './pages/products/ProductDetail';
 import Contact from './pages/Contact';
-import About from './pages/corporate/About';
-import VisionMission from './pages/corporate/VisionMission';
-import QualityCertificates from './pages/corporate/QualityCertificates';
-import History from './pages/corporate/History';
 import SidebarLayout from './layouts/SidebarLayout';
 import GenericPage from './pages/GenericPage';
 import { Navigate } from 'react-router-dom';
